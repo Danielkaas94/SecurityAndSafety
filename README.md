@@ -19,8 +19,9 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 ## [PacketLife.net 🎁📦🧬💕](https://packetlife.net/captures/protocol/telnet/)
 
-## [MALWARE-TRAFFIC-ANALYSIS.NET](https://malware-traffic-analysis.net/2017/01/28/index.html)
+## [MALWARE-TRAFFIC-ANALYSIS.NET 🚦📉📈⛔](https://malware-traffic-analysis.net/2017/01/28/index.html)
 
+## [Speedguide.net - Port 4️⃣4️⃣4️⃣4️⃣ Details](https://www.speedguide.net/port.php?port=4444)
 
 
 
