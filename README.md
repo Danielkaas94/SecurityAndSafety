@@ -70,6 +70,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [CYBERTHREAT REAL-TIME MAP 🌏](https://cybermap.kaspersky.com/)
 
+## [Bug Hunter University 🐞🏹🏫](https://bughunters.google.com/learn)
 
 
 # OSI Layer Attacks
