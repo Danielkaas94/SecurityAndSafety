@@ -6,6 +6,8 @@
 # 🔐 Security & Safety 🔐
 SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY
 
+<img alt="Sad Phone User 🤳" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/SadPhoneUser.gif?raw=true">
+
 </div>
 
 <hr>
