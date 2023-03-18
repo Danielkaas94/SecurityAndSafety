@@ -23,6 +23,15 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 -platform windows:darkmode=2
 ```
 
+```bat
+REM To set up the remote computer to allow remote command executions
+reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 1 /f
+
+:: Revert Changes
+reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+```
+
+
 ### Display filters 📺
 ```
 arp.opcode == 2
