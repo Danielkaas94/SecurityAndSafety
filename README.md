@@ -18,10 +18,23 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 </div>
 
-### Enable WireShark with Darkmode by using this command: 🌑
-```bat
--platform windows:darkmode=2
-```
+As an novice whitehat hacker, there are several tasks you can perform using the Command Prompt (CMD) to enhance your cybersecurity knowledge and protect systems. It's important to note that whitehat hacking is focused on ethical and legal practices, ensuring the security and integrity of systems. Here are a few tasks you can explore:
+
+1. Network Diagnostics: Use CMD commands like `ipconfig`, `ping`, and `tracert` to diagnose network issues, test connectivity, and troubleshoot network problems.
+
+2. Security Auditing: Perform basic security audits using commands such as `netstat` to identify open ports, `tasklist` to list running processes, and `systeminfo` to gather system information for vulnerability assessment.
+
+3. Password Auditing: Utilize tools like `net user` command to manage user accounts, `wmic` to retrieve password policy information, and `secedit` to analyze security policies for password auditing purposes.
+
+4. Malware Analysis: Employ CMD tools like `dir`, `attrib`, and `tasklist` to investigate suspicious files, folders, and processes. Use tools such as `sfc` (System File Checker) to verify the integrity of system files.
+
+5. Log Analysis: Analyze event logs using `eventvwr` to identify potential security incidents, system errors, or anomalies.
+
+6. Scripting and Automation: Learn to write simple batch scripts (.bat files) using CMD commands for automating tasks, such as backups, system monitoring, or routine maintenance.
+
+7. System Administration: Familiarize yourself with CMD commands for user management (`net user`), file and folder operations (`cd`, `copy`, `move`, etc.), and system configuration (`regedit`, `gpedit.msc`) to better understand system administration tasks.
+
+It's important to note that while using CMD commands, always ensure you have proper authorization and adhere to legal and ethical guidelines. Continuous learning, research, and staying updated with cybersecurity best practices will help you advance your skills and responsibly contribute to maintaining system security.
 
 ```bat
 REM To set up the remote computer to allow remote command executions
@@ -29,6 +42,11 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 
 :: Revert Changes
 reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+```
+
+### Enable WireShark with Darkmode by using this command: 🌑
+```bat
+-platform windows:darkmode=2
 ```
 
 
