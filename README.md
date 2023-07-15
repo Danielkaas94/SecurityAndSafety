@@ -35,6 +35,8 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 ### Display filters 📺
 ```
 arp.opcode == 2
+
+eth.dst && !(eth.dst[1:2] == eth.dst[3:4] && eth.dst[1:2] == eth.dst[5:6])
 ```
 
 
