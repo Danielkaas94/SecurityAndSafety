@@ -73,6 +73,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <!-- ## [CloudShark ☁🦈] -->
 
+## [Leet Translator & Generator 1️⃣3️⃣3️⃣7️⃣](https://md5decrypt.net/en/Leet-translator/)
+
 ## [PacketLife.net 🎁📦🧬💕](https://packetlife.net/captures/protocol/telnet/)
 
 ## [MALWARE-TRAFFIC-ANALYSIS.NET 🚦📉📈⛔](https://malware-traffic-analysis.net/2017/01/28/index.html)
