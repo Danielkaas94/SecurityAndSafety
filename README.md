@@ -15,6 +15,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 <div align="center">
 
 # [Download WireShark! 🔌🦈](https://www.wireshark.org/download.html)
+# [Download PyCharm: Python IDE 🐍](https://www.jetbrains.com/pycharm/download/?section=windows)
 
 </div>
 
