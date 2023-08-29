@@ -16,6 +16,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 # [Download WireShark! 🔌🦈](https://www.wireshark.org/download.html)
 # [Download PyCharm: Python IDE 🐍](https://www.jetbrains.com/pycharm/download/?section=windows)
+# [Download Swiss Army knife for developers (DevToys) 🛠️](https://devtoys.app)
 
 </div>
 
