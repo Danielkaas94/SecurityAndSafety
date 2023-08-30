@@ -1,0 +1,56 @@
+MITRE ATT&CK is a framework used to categorize and describe various tactics, techniques, 
+and procedures (TTPs) that adversaries use during cyberattacks. 
+The framework provides a comprehensive and structured approach to understanding how attacks are executed. 
+Here are brief descriptions of the different tactics within the MITRE ATT&CK framework:
+
+1. **Initial Access:**
+   This tactic involves the methods attackers use to gain a foothold in the target environment. 
+   It includes techniques such as spear-phishing, exploiting vulnerabilities, and using social 
+   engineering to trick users into executing malicious code.
+
+2. **Execution:**
+   Execution tactics encompass the techniques adversaries employ to run malicious code on 
+   a victim's system. This can include executing payloads through methods like command-line 
+   interfaces, scripting, or binary execution.
+
+3. **Persistence:**
+   Persistence tactics involve establishing mechanisms that allow attackers to maintain a 
+   presence in the system even after a reboot or other disruptions. Techniques like creating 
+   scheduled tasks, modifying registry keys, or installing malicious services fall under this category.
+
+4. **Privilege Escalation:**
+   Privilege escalation tactics focus on gaining higher levels of access within a compromised system. 
+   Attackers employ techniques to exploit vulnerabilities, misconfigurations, or weak access controls 
+   to elevate their privileges from standard user to administrator or system level.
+
+5. **Defense Evasion:**
+   Defense evasion tactics are used by adversaries to avoid detection by security tools and monitoring mechanisms. 
+   This may include techniques such as using rootkits, obfuscating code, or tampering with security settings.
+
+6. **Credential Access:**
+   This tactic revolves around stealing, brute-forcing, or otherwise acquiring legitimate 
+   credentials to gain unauthorized access. Attackers can exploit weak passwords, extract 
+   credentials from memory, or use credential dumping tools.
+
+7. **Discovery:**
+   Discovery tactics involve techniques that attackers use to gather information about the target environment. 
+   This includes querying system information, identifying network topology, and enumerating domain and user information.
+
+8. **Lateral Movement:**
+   Lateral movement involves moving laterally within a network to gain access to different systems and resources. 
+   Attackers use techniques like remote desktop sessions, pass-the-ticket attacks, and exploiting trust relationships to move from one system to another.
+
+9. **Collection:**
+   Collection tactics focus on gathering data and sensitive information from the target environment. 
+   Techniques include capturing screenshots, accessing email repositories, and exfiltrating documents.
+
+10. **Exfiltration:**
+    Exfiltration tactics cover methods used by adversaries to transfer stolen data out of the compromised environment. 
+    This could involve techniques like encrypting and sending data over various network protocols.
+
+11. **Impact:**
+    Impact tactics are centered around causing damage or disruption to the target environment. 
+    This might include techniques such as data destruction, system sabotage, and conducting denial-of-service attacks.
+
+These tactics are further broken down into specific techniques that adversaries use to achieve their objectives. 
+By understanding these tactics and techniques, defenders can better prepare to detect, prevent, and respond to cyberattacks.
