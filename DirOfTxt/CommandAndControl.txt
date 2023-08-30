@@ -1,0 +1,36 @@
+"Command and Control" is one of the tactics within the MITRE ATT&CK framework. 
+It focuses on the techniques that attackers use to establish communication channels 
+between their compromised systems and their infrastructure. This communication allows 
+them to manage and control their operations within the target environment. 
+Here's a bit more detail about the Command and Control (C2) tactic:
+
+**Command and Control:**
+Command and Control involves techniques that adversaries employ to establish and 
+maintain communication channels with their compromised systems. 
+These channels are used to send instructions, receive commands, and exfiltrate data from the target environment. 
+Attackers typically use these channels to manage their operations, update malicious software, and extract valuable information. 
+Effective Command and Control is crucial for attackers to maintain persistence, carry out lateral movement, and execute their intended objectives.
+
+
+Some techniques associated with the Command and Control tactic include:
+
+- **Commonly Used Port:** Adversaries may use well-known ports and protocols (like HTTP, HTTPS, or DNS) 
+to communicate, making their traffic appear more legitimate and blend in with regular network traffic.
+  
+- **Non-Standard Port:** Attackers might use non-standard ports and protocols for communication, 
+making it harder for network security solutions to detect their activities.
+  
+- **Custom Command and Control Protocol:** Adversaries can develop their own communication protocols, 
+making it even more challenging for defenders to identify malicious traffic.
+
+- **Web Services:** Attackers may use web services, like cloud storage platforms, to exfiltrate data or receive instructions.
+  
+- **Remote File Copy:** Adversaries might use remote file copy techniques to transfer tools and payloads to compromised systems.
+
+- **Third-Party Application:** Attackers may abuse third-party applications or services to establish communication channels, 
+utilizing platforms that might be overlooked by security solutions.
+
+Understanding the techniques within the Command and Control tactic is important for 
+defenders to recognize and block malicious communication attempts. 
+This can involve monitoring network traffic for unusual patterns, 
+blocking known malicious domains or IP addresses, and using behavioral analysis to detect abnormal communication behavior.
