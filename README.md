@@ -140,3 +140,10 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 | 3 | Network      | ICMP flood, OS fingerprinting, IP address spoofing, routing table poisoning |
 | 2 | Data Link    | Sniffing, ARP cache poisoning, macof attack                                 |
 | 1 | Physical     | Cutting cables, jamming, keystroke logging                                  |
+
+
+<br>
+
+# News 🆕📰🗞️
+
+[SECURITYWEEK NETWORK 🧑‍💻](https://www.securityweek.com/)
