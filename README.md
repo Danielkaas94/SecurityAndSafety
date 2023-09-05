@@ -1,7 +1,9 @@
 
 <div align="center">
 
-## [How Denmark’s Welfare State Became a Surveillance Nightmare](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
+## [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
+## [The Cyber Threat Against Denmark 🧑‍💻](https://www.cfcs.dk/en/cybertruslen/threat-assessments/the-cyber-threat-against-denmark/)
+
 
 # 🔐 Security & Safety 🔐
 SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY
@@ -17,6 +19,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Download WireShark! 🔌🦈](https://www.wireshark.org/download.html)
 # [Download PyCharm: Python IDE 🐍](https://www.jetbrains.com/pycharm/download/?section=windows)
 # [Download Swiss Army knife for developers (DevToys) 🛠️](https://devtoys.app)
+# [🍽️🍴🔪 CyberChef 🧑‍🍳👩‍🍳👨‍🍳](https://gchq.github.io/CyberChef/)
 
 </div>
 
@@ -121,6 +124,7 @@ https://attack.mitre.org/
 
 ## [Fone Finder 📱📴📲📶🤳🤙📞](http://www.fonefinder.net/)
 
+## [DistroWatch.com 👁️🖥️👁️](https://distrowatch.com/)
 
 
 
