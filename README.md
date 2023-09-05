@@ -78,8 +78,6 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <!-- ## [CloudShark ☁🦈] -->
 
-https://attack.mitre.org/
-
 ## [The Common Vulnerabilities and Exposures (CVE) Database 🔌📡](https://www.cve.org/)
 
 ## [🧑‍💻 MITRE ATT&CK® 👩‍💻](https://attack.mitre.org/)
