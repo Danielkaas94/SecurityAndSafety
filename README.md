@@ -150,3 +150,4 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 [VERSION2️⃣](https://www.version2.dk/)
 [2️⃣4️⃣Tech.dk](https://24tech.dk/)
 [🖥️Dansk IT Sikkerhed 🖥️](https://www.dkits.dk/)
+[🔎 OSINTer - Todays News 🔍](https://osinter.dk/feed/day)
