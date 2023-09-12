@@ -78,8 +78,6 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <!-- ## [CloudShark ☁🦈] -->
 
-https://attack.mitre.org/
-
 ## [The Common Vulnerabilities and Exposures (CVE) Database 🔌📡](https://www.cve.org/)
 
 ## [🧑‍💻 MITRE ATT&CK® 👩‍💻](https://attack.mitre.org/)
@@ -126,6 +124,8 @@ https://attack.mitre.org/
 
 ## [DistroWatch.com 👁️🖥️👁️](https://distrowatch.com/)
 
+## [🔎🦠 VirusTotal 🦠🔍](https://www.virustotal.com/)
+
 
 
 <br>
@@ -142,3 +142,15 @@ https://attack.mitre.org/
 | 3 | Network      | ICMP flood, OS fingerprinting, IP address spoofing, routing table poisoning |
 | 2 | Data Link    | Sniffing, ARP cache poisoning, macof attack                                 |
 | 1 | Physical     | Cutting cables, jamming, keystroke logging                                  |
+
+
+<br>
+
+# News 🆕📰🗞️
+
+### [SECURITYWEEK NETWORK 🧑‍💻](https://www.securityweek.com/)
+### [VERSION2️⃣](https://www.version2.dk/)
+### [2️⃣4️⃣Tech.dk](https://24tech.dk/)
+### [🖥️Dansk IT Sikkerhed 🖥️](https://www.dkits.dk/)
+### [🔎 OSINTer - Todays News 🔍](https://osinter.dk/feed/day)
+### [Best 160 Cybersecurity Groups On LinkedIn](https://www.cyberdb.co/best-160-linkedin-cybersecurity-groups-on/)
