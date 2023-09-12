@@ -21,6 +21,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Download PyCharm: Python IDE 🐍](https://www.jetbrains.com/pycharm/download/?section=windows)
 # [Download Swiss Army knife for developers (DevToys) 🛠️](https://devtoys.app)
 # [🍽️🍴🔪 CyberChef 🧑‍🍳👩‍🍳👨‍🍳](https://gchq.github.io/CyberChef/)
+# [🛠️📉📈 Risk Assessment Tools: Oregon State University 📈📉🛠️](https://risk.oregonstate.edu/risk-assessment-tools)
 
 </div>
 
