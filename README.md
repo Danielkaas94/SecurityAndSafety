@@ -130,6 +130,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [💀 ';--have i been pwned? 💀](https://haveibeenpwned.com/)
 
+## [🧻📜 IT Governance ISO 27001 & ISO 27002 📜🧻](https://www.itgovernance.co.uk/iso27001-and-iso27002-2022-updates)
 
 <br>
 
