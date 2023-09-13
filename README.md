@@ -22,6 +22,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Download Swiss Army knife for developers (DevToys) 🛠️](https://devtoys.app)
 # [🍽️🍴🔪 CyberChef 🧑‍🍳👩‍🍳👨‍🍳](https://gchq.github.io/CyberChef/)
 # [🛠️📉📈 Risk Assessment Tools: Oregon State University 📈📉🛠️](https://risk.oregonstate.edu/risk-assessment-tools)
+# [Download PuTTY 🖥️🔗](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 </div>
 
