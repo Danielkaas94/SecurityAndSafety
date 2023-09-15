@@ -1,15 +1,15 @@
-Ping sweep
+# 🔢 Ping sweep 🔢
 
-#!/bin/bash
-if [ “$1” == “” ]
-then
-echo “Type the IP address to scan.”
-echo “Example: ./pingsweep.sh 192.168.2”
-else
-for ip in `seq 1 254` ; do
-ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d “:” &
-done
-fi
+    #!/bin/bash
+    if [ “$1” == “” ]
+    then
+    echo “Type the IP address to scan.”
+    echo “Example: ./pingsweep.sh 192.168.2”
+    else
+    for ip in `seq 1 254` ; do
+    ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d “:” &
+    done
+    fi
 
 
 It looks like you've provided a Bash script for conducting a ping sweep. This script is used to scan a range of IP addresses within a subnet to check if they are alive (responding to pings). The script takes an IP address prefix as an argument and then iterates through all possible host addresses in that subnet (from 1 to 254) and pings each one.
@@ -296,23 +296,14 @@ This demonstrates how you can run a batch file with an argument in CMD.
 <b>
 
     #!/bin/bash
-    <br/>
     if [ “$1” == “” ]
-    <br/>
     then
-    <br/>
     echo “Type the IP address to scan.”
-    <br/>
     echo “Example: ./pingsweep.sh 192.168.2”
-    <br/>
     else
-    <br/>
     for ip in `seq 1 254` ; do
-    <br/>
     ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d “:” &
-    <br/>
     done
-    <br/>
     fi
 
     This won't work on windows right? This is specific for Linux enviroment?
