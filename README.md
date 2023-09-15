@@ -3,7 +3,8 @@
 
 ## [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
 ## [The Cyber Threat Against Denmark 🧑‍💻](https://www.cfcs.dk/en/cybertruslen/threat-assessments/the-cyber-threat-against-denmark/)
-
+## [💸💸 Forsikringsselskaber har undervurderet cybertruslen: Ransomware får priserne til at stige 💸💸](https://www.version2.dk/artikel/forsikringsselskaber-har-undervurderet-cybertruslen-ransomware-faar-priserne-til-stige)
+## [🔥🌶️Dansk hostingselskab lagt ned af ransomware: Kunder har mistet al data 🌶️🔥](https://www.version2.dk/artikel/dansk-hostingselskab-lagt-ned-af-ransomware-kunder-har-mistet-al-data)
 
 # 🔐 Security & Safety 🔐
 SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY
@@ -20,6 +21,10 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Download PyCharm: Python IDE 🐍](https://www.jetbrains.com/pycharm/download/?section=windows)
 # [Download Swiss Army knife for developers (DevToys) 🛠️](https://devtoys.app)
 # [🍽️🍴🔪 CyberChef 🧑‍🍳👩‍🍳👨‍🍳](https://gchq.github.io/CyberChef/)
+# [🛠️📉📈 Risk Assessment Tools: Oregon State University 📈📉🛠️](https://risk.oregonstate.edu/risk-assessment-tools)
+# [Download PuTTY 🖥️⚡🖥️](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+# [💻🔗💻 WinSCP 💻🔗💻](https://winscp.net/eng/index.php)
+# [🔎 netdiscover 🔍](https://www.kali.org/tools/netdiscover/)
 
 </div>
 
@@ -60,6 +65,12 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 arp.opcode == 2
 
 eth.dst && !(eth.dst[1:2] == eth.dst[3:4] && eth.dst[1:2] == eth.dst[5:6])
+
+// TLS Client Hello
+tls.handshake.type == 1
+
+// TLS Server Hello
+tls.handshake.type == 2
 ```
 
 
@@ -126,7 +137,11 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🔎🦠 VirusTotal 🦠🔍](https://www.virustotal.com/)
 
+## [💀 ';--have i been pwned? 💀](https://haveibeenpwned.com/)
 
+## [🧻📜 IT Governance ISO 27001 & ISO 27002 📜🧻](https://www.itgovernance.co.uk/iso27001-and-iso27002-2022-updates)
+
+## [🔐 Let's Encrypt](https://letsencrypt.org/)
 
 <br>
 
