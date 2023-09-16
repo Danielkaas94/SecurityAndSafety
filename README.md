@@ -143,6 +143,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🔐 Let's Encrypt](https://letsencrypt.org/)
 
+## [🆓📶 Aircrack-ng Newbie Guide for Linux 📴📡](https://www.aircrack-ng.org/doku.php?id=newbie_guide)
+
 <br>
 
 
