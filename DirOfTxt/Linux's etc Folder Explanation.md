@@ -1,7 +1,5 @@
 # On Linux, there is a folder called etc, why?
 
-# Go on
-
 The "etc" folder in Linux is short for "et cetera," which translates to "and other things" in Latin. It contains configuration files and scripts that are crucial for the system and various software applications. This organization helps keep important system-wide configurations centralized and easily accessible for both the system and users.
 
 
