@@ -171,3 +171,10 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 ### [🖥️Dansk IT Sikkerhed 🖥️](https://www.dkits.dk/)
 ### [🔎 OSINTer - Todays News 🔍](https://osinter.dk/feed/day)
 ### [Best 160 Cybersecurity Groups On LinkedIn](https://www.cyberdb.co/best-160-linkedin-cybersecurity-groups-on/)
+
+
+[Join CodeWars with me! 👨‍💻](https://codewars.com/r/hGyTsQ)
+
+<p>
+  <img alt="CodeWars Badge" src="https://www.codewars.com/users/Danielkaas94/badges/large">
+</p>
