@@ -25,6 +25,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Download PuTTY 🖥️⚡🖥️](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 # [💻🔗💻 WinSCP 💻🔗💻](https://winscp.net/eng/index.php)
 # [🔎 netdiscover 🔍](https://www.kali.org/tools/netdiscover/)
+# [🆔 Get AccessChk 🆔](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk)
 
 </div>
 
