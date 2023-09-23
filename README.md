@@ -152,6 +152,9 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [Exploit Database 💼](https://www.exploit-db.com/)
 
+## [Common Vulnerabilities and Exposures 🆒](https://www.cve.org/)
+
+
 <br>
 
 
