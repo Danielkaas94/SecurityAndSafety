@@ -193,9 +193,9 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <br>
 
-# LINUX SUCKS BALLS!
-
 <div align="center">
+
+# LINUX SUCKS BALLS!
 
 # [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
 
