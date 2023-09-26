@@ -146,6 +146,15 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🆓📶 Aircrack-ng Newbie Guide for Linux 📴📡](https://www.aircrack-ng.org/doku.php?id=newbie_guide)
 
+## [The nano GNU - Text Editor Homepage 🧑‍💻](https://www.nano-editor.org/)
+
+## [CVE Details 🔍](https://www.cvedetails.com/)
+
+## [Exploit Database 💼](https://www.exploit-db.com/)
+
+## [Common Vulnerabilities and Exposures 🆒](https://www.cve.org/)
+
+
 <br>
 
 
