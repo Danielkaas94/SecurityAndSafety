@@ -197,7 +197,12 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <div align="center">
 
-[Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
+# [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
 
+# [r/unpopularopinion Linux sucks](https://www.reddit.com/r/unpopularopinion/comments/8h8dns/linux_sucks/)
+
+## [Why Linus Torvalds doesn't use Ubuntu or Debian](https://youtu.be/qHGTs1NSB1s?si=gIaxba785rPLso9a)
+
+## ["I've never installed gnu/linux" - Richard Stallman](https://youtu.be/umQL37AC_YM?si=t14bBcGD399K33Ju)
 
 </div>
