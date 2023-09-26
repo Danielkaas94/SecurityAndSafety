@@ -211,7 +211,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ### “You have all the drawbacks of being part of a megacorp, but you also still have all the drawbacks of being run by a semi-organized community”
 
-### "Desktop Linux is dying a slow death" - "What is dead may never die"
+### 💀 "Desktop Linux is dying a slow death" - "What is dead may never die" 💀
 
 <img width="180" alt="image" src="https://github.com/Danielkaas94/SecurityAndSafety/assets/17402015/7dc6f354-02ef-4e4b-be81-5e4f53678b26">
 
