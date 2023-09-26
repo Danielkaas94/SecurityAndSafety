@@ -197,17 +197,17 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 # LINUX SUCKS BALLS! 🤤🥚🥚🍆
 
-# [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
+## [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
 
-# [r/unpopularopinion - Linux sucks](https://www.reddit.com/r/unpopularopinion/comments/8h8dns/linux_sucks/)
+## [r/unpopularopinion - Linux sucks](https://www.reddit.com/r/unpopularopinion/comments/8h8dns/linux_sucks/)
 
-## [Why Linus Torvalds doesn't use Ubuntu or Debian](https://youtu.be/qHGTs1NSB1s?si=gIaxba785rPLso9a)
+### [Why Linus Torvalds doesn't use Ubuntu or Debian](https://youtu.be/qHGTs1NSB1s?si=gIaxba785rPLso9a)
 
-## ["I've never installed gnu/linux" - Richard Stallman](https://youtu.be/umQL37AC_YM?si=t14bBcGD399K33Ju)
+### ["I've never installed gnu/linux" - Richard Stallman](https://youtu.be/umQL37AC_YM?si=t14bBcGD399K33Ju)
 
-# [Reasons to Hate Linux: 2020 Edition](https://thenewstack.io/reasons-to-hate-linux-2020-edition/)
+## [Reasons to Hate Linux: 2020 Edition](https://thenewstack.io/reasons-to-hate-linux-2020-edition/)
 
-## [Bryan Lunduke - Linux Sucks 2020](https://youtu.be/cZN5n6C9gM4?si=ybdNGl9NR2HYxopl)
+### [Bryan Lunduke - Linux Sucks 2020](https://youtu.be/cZN5n6C9gM4?si=ybdNGl9NR2HYxopl)
 
 ### “You have all the drawbacks of being part of a megacorp, but you also still have all the drawbacks of being run by a semi-organized community”
 
