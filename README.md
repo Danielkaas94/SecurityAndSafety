@@ -197,7 +197,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 <div align="center">
 
-
+[Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
 
 
 </div>
