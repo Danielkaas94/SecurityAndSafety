@@ -209,4 +209,6 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [Bryan Lunduke - Linux Sucks 2020](https://youtu.be/cZN5n6C9gM4?si=ybdNGl9NR2HYxopl)
 
+### “You have all the drawbacks of being part of a megacorp, but you also still have all the drawbacks of being run by a semi-organized community”
+
 </div>
