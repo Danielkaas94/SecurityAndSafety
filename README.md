@@ -188,3 +188,32 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 <p>
   <img alt="CodeWars Badge" src="https://www.codewars.com/users/Danielkaas94/badges/large">
 </p>
+
+
+
+<br>
+
+<div align="center">
+
+# LINUX SUCKS BALLS! 🤤🥚🥚🍆
+
+## [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
+
+## [r/unpopularopinion - Linux sucks](https://www.reddit.com/r/unpopularopinion/comments/8h8dns/linux_sucks/)
+
+### [Why Linus Torvalds doesn't use Ubuntu or Debian](https://youtu.be/qHGTs1NSB1s?si=gIaxba785rPLso9a)
+
+### ["I've never installed gnu/linux" - Richard Stallman](https://youtu.be/umQL37AC_YM?si=t14bBcGD399K33Ju)
+
+## [Reasons to Hate Linux: 2020 Edition](https://thenewstack.io/reasons-to-hate-linux-2020-edition/)
+
+### [Bryan Lunduke - Linux Sucks 2020](https://youtu.be/cZN5n6C9gM4?si=ybdNGl9NR2HYxopl)
+
+### “You have all the drawbacks of being part of a megacorp, but you also still have all the drawbacks of being run by a semi-organized community”
+
+### 💀 "Desktop Linux is dying a slow death" - "What is dead may never die" 💀
+
+<img width="180" alt="image" src="https://github.com/Danielkaas94/SecurityAndSafety/assets/17402015/7dc6f354-02ef-4e4b-be81-5e4f53678b26">
+
+
+</div>
