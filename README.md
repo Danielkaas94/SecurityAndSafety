@@ -26,6 +26,8 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [💻🔗💻 WinSCP 💻🔗💻](https://winscp.net/eng/index.php)
 # [🔎 netdiscover 🔍](https://www.kali.org/tools/netdiscover/)
 # [🆔 Get AccessChk 🆔](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk)
+# [🤬😠😡📡 Download Angry IP Scanner 📡😡😠🤬](https://angryip.org/download/#windows)
+# [😎📡 Advanced IP Scanner 📡😎](https://www.advanced-ip-scanner.com/download/)
 
 </div>
 
