@@ -55,6 +55,20 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 
 :: Revert Changes
 reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+
+%[:%
+  This command is used to list all the wireless network profiles that have been stored on your Windows computer. 
+  When you run this command, it will display a list of all the Wi-Fi networks that your computer has connected to or tried to connect to in the past.
+  These profiles can include both secured and open networks.
+%:]%
+netsh wlan show profiles
+
+%:]%
+  This command is more specific and is used to display detailed information about a particular wireless network profile, including its security key.
+  You need to replace "Name" with the name of the network you want to retrieve information about.
+  When you run this command, it will provide you with the security key (password) of that particular Wi-Fi network, assuming you have the necessary permissions.
+%:]%
+netsh wlan show profile name="Name" key=clear
 ```
 
 ### Enable WireShark with Darkmode by using this command: 🌑
