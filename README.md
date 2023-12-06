@@ -30,6 +30,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [😎📡 Advanced IP Scanner 📡😎](https://www.advanced-ip-scanner.com/download/)
 # [Autopsy - Digital Forensics 🔍🐕‍🦺](https://www.autopsy.com/)
 # [Volatility 3️⃣](https://github.com/volatilityfoundation/volatility3)
+# [e❌terro FTK Imager](https://www.exterro.com/ftk-imager)
 
 </div>
 
