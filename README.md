@@ -29,6 +29,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [🤬😠😡📡 Download Angry IP Scanner 📡😡😠🤬](https://angryip.org/download/#windows)
 # [😎📡 Advanced IP Scanner 📡😎](https://www.advanced-ip-scanner.com/download/)
 # [Autopsy - Digital Forensics 🔍🐕‍🦺](https://www.autopsy.com/)
+# [Volatility 3️⃣](https://github.com/volatilityfoundation/volatility3)
 
 </div>
 
