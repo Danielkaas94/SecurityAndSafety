@@ -28,6 +28,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [🆔 Get AccessChk 🆔](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk)
 # [🤬😠😡📡 Download Angry IP Scanner 📡😡😠🤬](https://angryip.org/download/#windows)
 # [😎📡 Advanced IP Scanner 📡😎](https://www.advanced-ip-scanner.com/download/)
+# [Autopsy - Digital Forensics 🔍🐕‍🦺](https://www.autopsy.com/)
 
 </div>
 
