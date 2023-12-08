@@ -115,6 +115,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [Leet Translator & Generator 1️⃣3️⃣3️⃣7️⃣](https://md5decrypt.net/en/Leet-translator/)
 
+## [🆒 Text to ASCII Art Generator (TAAG) 🆒](https://www.patorjk.com/software/taag/#p=display&f=Big&t=Aku%20Sayang%20Kamu%20Selamanya)
+
 ## [PacketLife.net 🎁📦🧬💕](https://packetlife.net/captures/protocol/telnet/)
 
 ## [MALWARE-TRAFFIC-ANALYSIS.NET 🚦📉📈⛔](https://malware-traffic-analysis.net/2017/01/28/index.html)
