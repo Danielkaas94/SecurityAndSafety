@@ -57,10 +57,10 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
 ```
 
-### Enable WireShark with Darkmode by using this command: 🌑
+<!-- ### Enable WireShark with Dark Mode by using this command: 🌑
 ```bat
 -platform windows:darkmode=2
-```
+``` -->
 
 
 ### Display filters 📺
