@@ -28,6 +28,9 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [🆔 Get AccessChk 🆔](https://learn.microsoft.com/en-us/sysinternals/downloads/accesschk)
 # [🤬😠😡📡 Download Angry IP Scanner 📡😡😠🤬](https://angryip.org/download/#windows)
 # [😎📡 Advanced IP Scanner 📡😎](https://www.advanced-ip-scanner.com/download/)
+# [Autopsy - Digital Forensics 🔍🐕‍🦺](https://www.autopsy.com/)
+# [Volatility 3️⃣](https://github.com/volatilityfoundation/volatility3)
+# [e❌terro FTK Imager](https://www.exterro.com/ftk-imager)
 
 </div>
 
@@ -55,6 +58,20 @@ reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalA
 
 :: Revert Changes
 reg add HKLM\Software\Microsoft\windows\CurrentVersion\Policies\system /v LocalAccountTokenFilterPolicy /t REG_DWORD /d 0 /f
+
+%[:%
+  This command is used to list all the wireless network profiles that have been stored on your Windows computer. 
+  When you run this command, it will display a list of all the Wi-Fi networks that your computer has connected to or tried to connect to in the past.
+  These profiles can include both secured and open networks.
+%:]%
+netsh wlan show profiles
+
+%:]%
+  This command is more specific and is used to display detailed information about a particular wireless network profile, including its security key.
+  You need to replace "Name" with the name of the network you want to retrieve information about.
+  When you run this command, it will provide you with the security key (password) of that particular Wi-Fi network, assuming you have the necessary permissions.
+%:]%
+netsh wlan show profile name="Name" key=clear
 ```
 
 <!-- ### Enable WireShark with Dark Mode by using this command: 🌑
@@ -97,6 +114,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 ## [🧑‍💻 MITRE ATT&CK® 👩‍💻](https://attack.mitre.org/)
 
 ## [Leet Translator & Generator 1️⃣3️⃣3️⃣7️⃣](https://md5decrypt.net/en/Leet-translator/)
+
+## [🆒 Text to ASCII Art Generator (TAAG) 🆒](https://www.patorjk.com/software/taag/#p=display&f=Big&t=Aku%20Sayang%20Kamu%20Selamanya)
 
 ## [PacketLife.net 🎁📦🧬💕](https://packetlife.net/captures/protocol/telnet/)
 
@@ -157,6 +176,10 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 ## [Common Vulnerabilities and Exposures 🆒](https://www.cve.org/)
 
 ## [WiGLE - All the networks. Found by Everyone 📡](https://wigle.net/)
+
+## [OPNsense’s Documentation](https://docs.opnsense.org/index.html)
+
+## [Berkeley Database Hardening Best Practices 🆒](https://security.berkeley.edu/education-awareness/database-hardening-best-practices)
 
 <br>
 
