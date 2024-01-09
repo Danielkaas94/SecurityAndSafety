@@ -31,6 +31,7 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 # [Autopsy - Digital Forensics 🔍🐕‍🦺](https://www.autopsy.com/)
 # [Volatility 3️⃣](https://github.com/volatilityfoundation/volatility3)
 # [e❌terro FTK Imager](https://www.exterro.com/ftk-imager)
+# [⚡ Zed Attack Proxy (ZAP) ⚡](https://www.zaproxy.org/)
 
 </div>
 
