@@ -83,3 +83,60 @@ plt.scatter(clusters[:, 0], clusters[:, 1], c='black', s=200, alpha=0.5);
 print(kmeans.predict([[-0.5, 0.5], [1.5, -0.25], [0, 0.25]]))
 
 plt.show()
+
+
+'''
+     _____  ____   _____  _____          _   _ 
+    |  __ \|  _ \ / ____|/ ____|   /\   | \ | |
+    | |  | | |_) | (___ | |       /  \  |  \| |
+    | |  | |  _ < \___ \| |      / /\ \ | . ` |
+    | |__| | |_) |____) | |____ / ____ \| |\  |
+    |_____/|____/|_____/ \_____/_/    \_\_| \_|
+
+
+  _____                 _ _                ____                     _    _____             _   _       _    _____ _           _            _                      __                        _ _           _   _                            _ _   _       _   _       _          
+ |  __ \               (_) |              |  _ \                   | |  / ____|           | | (_)     | |  / ____| |         | |          (_)                    / _|     /\               | (_)         | | (_)                          (_) | | |     | \ | |     (_)         
+ | |  | | ___ _ __  ___ _| |_ _   _ ______| |_) | __ _ ___  ___  __| | | (___  _ __   __ _| |_ _  __ _| | | |    | |_   _ ___| |_ ___ _ __ _ _ __   __ _    ___ | |_     /  \   _ __  _ __ | |_  ___ __ _| |_ _  ___  _ __  ___  __      ___| |_| |__   |  \| | ___  _ ___  ___ 
+ | |  | |/ _ \ '_ \/ __| | __| | | |______|  _ < / _` / __|/ _ \/ _` |  \___ \| '_ \ / _` | __| |/ _` | | | |    | | | | / __| __/ _ \ '__| | '_ \ / _` |  / _ \|  _|   / /\ \ | '_ \| '_ \| | |/ __/ _` | __| |/ _ \| '_ \/ __| \ \ /\ / / | __| '_ \  | . ` |/ _ \| / __|/ _ \
+ | |__| |  __/ | | \__ \ | |_| |_| |      | |_) | (_| \__ \  __/ (_| |  ____) | |_) | (_| | |_| | (_| | | | |____| | |_| \__ \ ||  __/ |  | | | | | (_| | | (_) | |    / ____ \| |_) | |_) | | | (_| (_| | |_| | (_) | | | \__ \  \ V  V /| | |_| | | | | |\  | (_) | \__ \  __/
+ |_____/ \___|_| |_|___/_|\__|\__, |      |____/ \__,_|___/\___|\__,_| |_____/| .__/ \__,_|\__|_|\__,_|_|  \_____|_|\__,_|___/\__\___|_|  |_|_| |_|\__, |  \___/|_|   /_/    \_\ .__/| .__/|_|_|\___\__,_|\__|_|\___/|_| |_|___/   \_/\_/ |_|\__|_| |_| |_| \_|\___/|_|___/\___|
+                               __/ |                                          | |                                                                   __/ |                      | |   | |                                                                                        
+                              |___/                                           |_|                                                                  |___/                       |_|   |_|                                                                                        
+
+
+'''
+from sklearn.cluster import DBSCAN
+
+# DBSCAN clustering
+# dbscan = DBSCAN(eps=0.2, min_samples=5)
+dbscan = DBSCAN(eps=0.2, min_samples=20)
+labels = dbscan.fit_predict(X)
+# Number of clusters in labels, ignoring noise if present.
+n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
+print(f"Number of clusters: {n_clusters_}")
+
+# Plotting the clusters
+plt.scatter(X[:, 0], X[:, 1], c=labels, edgecolor='black', cmap='viridis', s=20)
+plt.show()
+
+
+
+'''
+In the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm, `eps` and `min_samples` are two critical parameters that directly affect the clustering results:
+
+1. **eps (epsilon)**:
+   - `eps` is the maximum distance between two samples for one to be considered as in the neighborhood of the other. In simpler terms, it determines the radius of the neighborhood around each point.
+   - Points within the same neighborhood are considered as part of the same cluster.
+   - Increasing `eps` means that more points will be included in each cluster, potentially resulting in fewer clusters.
+   - Decreasing `eps` results in smaller, denser clusters because it requires points to be closer together to be considered part of the same cluster.
+
+2. **min_samples**:
+   - `min_samples` is the number of samples in a neighborhood for a point to be considered as a core point. Core points are points that have at least `min_samples` points (including themselves) within their `eps` neighborhood.
+   - Points that do not meet the `min_samples` criterion but are within the `eps` neighborhood of a core point are considered border points.
+   - Points that are not core points and do not have enough neighbors to be considered border points are labeled as noise points.
+   - Increasing `min_samples` requires denser regions to form a cluster, resulting in more points being labeled as noise or belonging to smaller clusters.
+   - Decreasing `min_samples` allows for more points to be core points, potentially leading to larger clusters and fewer noise points.
+
+In summary, adjusting `eps` and `min_samples` allows you to control the density and size of the clusters identified by DBSCAN. It's often necessary to experiment with different values to find the optimal parameters for your specific dataset and clustering objectives.
+
+'''
