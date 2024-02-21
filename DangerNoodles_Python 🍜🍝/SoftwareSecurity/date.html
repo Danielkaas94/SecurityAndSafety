@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>Noget med datoer</title>
+  <script>
+     function check1() {
+       var d = document.getElementById("date1");
+       var f = document.getElementById("fejl1");
+       f.innerHTML = "";
+
+       if (/^\d\d\d\d-\d\d-\d\d$/.test(d.value)) {
+         f.innerHTML = "Datoen "+d.value+" er god nok";
+       } else {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d.value+" er ikke ret god</b>";
+       }
+    }
+
+     function checkdigits(s) {
+       for (i=0;i<s.length;i++) {
+         if (s[i]>='0' && s[i]<='9') {
+           // ok
+         } else {
+           return false;
+         }
+       }
+       return true;
+      }
+
+
+     function check2() {
+       var d = document.getElementById("date2").value;
+       var f = document.getElementById("fejl2");
+       f.innerHTML = "";
+
+       d = d.trim();
+       var a = d.split("-");
+       if (a.length!=3) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal have 3 dele adskilt med en bindestreg.</b>";
+         return;
+       }
+
+       if (!checkdigits(a[0])) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal nok starte med 4 cifre.</b>";
+         return;
+       }
+       if (a[0].length!=4) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal starte med 4 cifre.</b>";
+         return;
+       }
+         
+       if (!checkdigits(a[1])) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal vel i midten have 2 cifre.</b>";
+         return;
+       }
+       if (a[1].length!=2) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal i midten have 2 cifre.</b>";
+         return;
+       }
+         
+       if (!checkdigits(a[2])) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal slutte med 2 cifre.</b>";
+         return;
+       }
+       if (a[2].length!=2) {
+         f.innerHTML = "<b style=\"color: red\">Datoen "+d+" skal faktisk slutte med 2 cifre.</b>";
+         return;
+       }
+         
+      f.innerHTML = "Datoen "+d+" ser fin ud.";
+         
+     } 
+
+  </script>
+</head>
+<body>
+
+<hr>
+
+<input type="text" id="date1">  <input type="button" onclick="check1()" value="Check"><br>
+
+<div id="fejl1">
+<br>
+</div>
+
+<hr>
+
+<input type="text" id="date2">  <input type="button" onclick="check2()" value="Check"><br>
+
+<div id="fejl2">
+<br>
+</div>
+
+
+</body>
+</html>
