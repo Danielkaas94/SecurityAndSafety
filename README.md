@@ -150,7 +150,11 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [Bug Hunter University 🐞🏹🏫](https://bughunters.google.com/learn)
 
+<!--
 ## [👧👦🧒👵🎅 True People Search 👩👨🧑👴🧓](https://truepeoplesearch.net/)
+-->
+
+## [👧👦🧒👵🎅 The #1 source for identity & trust | Pipl 👩👨🧑👴🧓](https://truepeoplesearch.net/)
 
 ## [RAMMap v1.61](https://learn.microsoft.com/en-us/sysinternals/downloads/rammap)
 
@@ -183,6 +187,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 ## [Berkeley Database Hardening Best Practices 🆒](https://security.berkeley.edu/education-awareness/database-hardening-best-practices)
 
 ## [RegexOne - Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/)
+
+## [🔴❤️🎩👒 Red Hat interactive labs 👒🎩❤️🔴](https://www.redhat.com/en/interactive-labs)
 
 <br>
 
