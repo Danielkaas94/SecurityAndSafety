@@ -6,6 +6,7 @@
 ## [💸💸 Forsikringsselskaber har undervurderet cybertruslen: Ransomware får priserne til at stige 💸💸](https://www.version2.dk/artikel/forsikringsselskaber-har-undervurderet-cybertruslen-ransomware-faar-priserne-til-stige)
 ## [🔥🌶️Dansk hostingselskab lagt ned af ransomware: Kunder har mistet al data 🌶️🔥](https://www.version2.dk/artikel/dansk-hostingselskab-lagt-ned-af-ransomware-kunder-har-mistet-al-data)
 ## [Dale's Unsolicited Response Podcast 🗣️💬🎙️🤔](https://dale-peterson.com/podcast-2/)
+## [MITRE ATT&CK® Navigator 🗺️](https://mitre-attack.github.io/attack-navigator/)
 
 
 # 🔐 Security & Safety 🔐
