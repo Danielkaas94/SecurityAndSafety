@@ -215,6 +215,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 # News 🆕📰🗞️
 
+### [Schneier on Security 🎅](https://www.schneier.com/)
 ### [Krebs on Security 👨‍💼](https://krebsonsecurity.com/)
 ### [🌍💻 COMPUTERWORLD 💻🌍](https://www.computerworld.dk/)
 ### [SECURITYWEEK NETWORK 🧑‍💻](https://www.securityweek.com/)
