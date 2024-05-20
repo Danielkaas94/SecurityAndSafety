@@ -76,6 +76,12 @@ netsh wlan show profiles
   When you run this command, it will provide you with the security key (password) of that particular Wi-Fi network, assuming you have the necessary permissions.
 %:]%
 netsh wlan show profile name="Name" key=clear
+
+:: Check for connections
+netstat -ano | findstr "ESTABLISHED"
+
+:: Get path from processid
+wmic process where processid=1337 get ExecutablePath
 ```
 
 <!-- ### Enable WireShark with Dark Mode by using this command: 🌑
