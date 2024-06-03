@@ -201,6 +201,9 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🚩 FFA-IS.FUN - BEST DIGITAL TREASURE HUNT EVER 🚩](https://ffa-is.fun/)
 
+## [🔎🕷️ Exploit Database - Google Hacking Database 🕷️🔍](https://www.exploit-db.com/google-hacking-database)
+
+
 <br>
 
 
