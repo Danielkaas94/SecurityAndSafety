@@ -5,10 +5,10 @@
 [En simpel algoritme](http://gugl.dk/rand1.html)
 
 
-[Wikipedia - Linear congruential generator (LCG)](https://en.wikipedia.org/wiki/Linear_congruential_generator)
+##### [Wikipedia - Linear congruential generator (LCG)](https://en.wikipedia.org/wiki/Linear_congruential_generator)
 
 
-[Python - random() 🐍](https://docs.python.org/3/library/random.html)
+##### [Python - random() 🐍](https://docs.python.org/3/library/random.html)
 
 Python uses the Mersenne Twister as the core generator. It produces 53-bit 
 precision floats and has a period of 2**19937-1. The underlying implementation in 
@@ -18,7 +18,7 @@ deterministic, it is not suitable for all purposes, and is completely unsuitable
 cryptographic purposes.
 
 
-[True Random](http://gugl.dk/truerandom.html)
+##### [True Random](http://gugl.dk/truerandom.html)
 ```javascript
 var count = 0;
  var totalcount = 0;
@@ -33,10 +33,10 @@ var count = 0;
 ```
 
 
-[Click Random](http://gugl.dk/click.html)
+##### [Click Random](http://gugl.dk/click.html)
 
 
-[Linux Commands - /dev/random vs /dev/urandom and are they secure?](https://linuxhint.com/dev_random_vs_dev_urandom/)
+##### [Linux Commands - /dev/random vs /dev/urandom and are they secure?](https://linuxhint.com/dev_random_vs_dev_urandom/)
 
 ```python
 c = [0]*256
@@ -60,14 +60,14 @@ for cc in c:
 
 
 
-[Wordpress - Source Code](https://wordpress.org/download/source/)
+##### [Wordpress - Source Code](https://wordpress.org/download/source/)
 
 `git clone git://develop.git.wordpress.org/`
 
 `grep -ir mysqli`
 
 
-[Definition - legacy system (legacy application)](https://www.techtarget.com/searchitoperations/definition/legacy-application)
+##### [Definition - legacy system (legacy application)](https://www.techtarget.com/searchitoperations/definition/legacy-application)
 
 ---
 - Escaping
@@ -77,6 +77,52 @@ for cc in c:
 
 
 <br>
+
+---
+---
+
+# Lektion 2
+
+## XXS - Cross Site Scripting ✝️
+
+##### [Wikipedia - Cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)
+
+- `< til &lt;`
+- `> til &gt;`
+- `& til &amp;`
+- `" til &quot;`
+
+---
+
+#### [Søg på dr.dk - Horsens](https://www.dr.dk/soeg?query=horsens)
+
+
+#### [Søg på dr.dk - <script>alert(7);</script>](https://www.dr.dk/soeg?query=%3Cscript%3Ealert(7);%3C/script%3E)
+
+---
+
+#### [reflected1](http://gugl.dk/xss/reflected1/)
+#### [reflected2](http://gugl.dk/xss/reflected2/)
+
+
+#### [stored1](http://gugl.dk/xss/stored1/)
+#### [stored2](http://gugl.dk/xss/stored2/)
+
+---
+
+
+#### [OWASP - DOM Based XSS](https://owasp.org/www-community/attacks/DOM_Based_XSS)
+
+#### [StackOverflow - HTML-encoding lost when attribute read from input field](https://stackoverflow.com/questions/1219860/html-encoding-lost-when-attribute-read-from-input-field)
+
+#### [StackOverflow - Unescape HTML entities in JavaScript?](https://stackoverflow.com/questions/1912501/unescape-html-entities-in-javascript/34064434#34064434)
+
+#### [StackOverflow - HTML-encoding lost when attribute read from input field](https://stackoverflow.com/questions/1219860/html-encoding-lost-when-attribute-read-from-input-field)
+
+#### [xssdemo](http://gugl.dk/xssdemo/)
+
+#### [Dev - Mozilla - Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+
 
 ---
 ---
