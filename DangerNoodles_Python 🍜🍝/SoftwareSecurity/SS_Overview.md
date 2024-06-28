@@ -126,3 +126,120 @@ for cc in c:
 
 ---
 ---
+
+# Lektion 3
+
+## Inputvalidering
+
+- regex
+
+[Regex to validate date formats dd/mm/YYYY, dd-mm-YYYY, dd.mm.YYYY, dd mmm YYYY, dd-mmm-YYYY, dd/mmm/YYYY, dd.mmm.YYYY with Leap Year Support - Stack Overflow](https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy)
+
+
+```python
+import datetime
+ import re
+ def validatedate(inputdate):
+  m = re.match('^(\d\d)-(\d\d)-(\d\d\d\d)$',inputdate)
+  if not m:
+    return False
+  try:
+    dd = int(m.group(1))
+    mm = int(m.group(2))
+    yyyy = int(m.group(3))
+    result = datetime.date(yyyy,mm,dd)
+    return True
+  except ValueError:
+    return False
+```
+
+```python
+(?x) # modifier x: free spacing mode (for comments)
+ # verify date dd/mm/yyyy; possible separators: -.,/ 
+# valid year range: 0000-9999
+ ^ # start anchor 
+# precheck xx-xx-xxxx,... add new separators here 
+(?=\d{2}([-.,\/])\d{2}\1\d{4}$)
+ (?: # day-check: non caturing group 
+  # days 01-28 
+  0[1-9]|1\d|[2][0-8]| 
+  # february 29d check for leap year: all 4y / 00 years: only each 400 # 0400,0800,1200,1600,2000,... 
+  29 
+    (?!.02. # not if feb: if not ... 
+       (?! # 00 years: exclude !0 %400 years 
+           (?!(?:[02468][1-35-79]|[13579][0-13-57-9])00) 
+           # 00,04,08,12,... 
+           \d{2}(?:[02468][048]|[13579][26]) ) )|
+```
+
+
+```C#
+<%@ language="C#" %>
+ <form id="form1" runat="server">
+    <asp:TextBox ID="txtName" runat="server"/>
+    <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+    <asp:RegularExpressionValidator ID="regexpName" runat="server"     
+                    ErrorMessage="This expression does not validate." 
+                    ControlToValidate="txtName"
+                    ValidationExpression="^[a-zA-Z'.\s]{1,40}$" />
+ </form>
+```
+
+
+[Part 9, add validation to an ASP.NET Core MVC app | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation?view=aspnetcore-8.0)
+
+
+---
+
+[Ng-Pattern Examples - LearnKode](https://www.learnkode.com/Examples/Angular/Ng-Pattern)
+
+
+```html
+<ng-form name="mailForm">
+    Email: <input type="text" ng-model="mail" name="mail" ng-pattern="re" /><br />
+    </ng-form>
+    <script>
+    var app = angular.module("app", []);
+    app.controller('controllerName', ['$scope', function ($scope) {
+        $scope.mail = "visrosoftware@gmail.com";
+        $scope.re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    }]);
+ </script>
+ </body>
+```
+
+---
+
+### HTML 5
+
+```html
+<form action="/action_page.php">
+ Country code: <input type="text" name="country_code"
+  pattern="[A-Za-z]{3}" title="Three letter country code">
+ <input type="submit">
+ </form>
+```
+
+### Positive lookahead
+
+- `^(?=.*[a-z]) (?=.*[A-Z]) (?=.*[0-9]) (?=.{8,})`
+
+---
+
+
+[Noget med datoer (gugl.dk)](http://gugl.dk/date.html)
+
+#### Klient og/eller server?
+
+Man bør inputvalidere på klient.
+Man skal inputvalidere på server.
+
+På klienten kan man give hurtigt feedback, og aflaste serveren. På serveren 
+skal der inputvalideres, for man kan ikke stole på hvad der kommer fra 
+klienten.
+
+De to valideringer, klient og server, behøver ikke være lavet på samme måde. 
+
+---
+---
+
