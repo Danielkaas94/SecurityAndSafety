@@ -399,7 +399,7 @@ d41d8cd98f00b204e9800998ecf8427e
 
 <div align="center">
 
-<img width="420" alt="jangow01 - Method 1" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%201.png?raw=true">
+<img width="720" alt="jangow01 - Method 1" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%201.png?raw=true">
 
 [![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
 
@@ -421,7 +421,7 @@ help
 214-The following commands are recognized.
  ABOR ACCT ALLO APPE CDUP CWD  DELE EPRT EPSV FEAT HELP LIST MDTM MKD
  MODE NLST NOOP OPTS PASS PASV PORT PWD  QUIT REIN REST RETR RMD  RNFR
- RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD
+ RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD720
  XPWD XRMD
 214 Help OK.
 
@@ -429,7 +429,7 @@ help
 
 <div align="center">
 
-<img width="420" alt="jangow01 - Method 2" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%202.png?raw=true">
+<img width="720" alt="jangow01 - Method 2" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%202.png?raw=true">
 
 [![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
 
@@ -440,7 +440,7 @@ help
 
 <div align="center">
 
-<img width="420" alt="jangow01 - Method 3" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%203.png?raw=true">
+<img width="720" alt="jangow01 - Method 3" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%203.png?raw=true">
 
 [![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
 
