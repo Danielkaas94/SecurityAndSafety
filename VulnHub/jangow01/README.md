@@ -397,7 +397,13 @@ d41d8cd98f00b204e9800998ecf8427e
 - Get code from GitHub [php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
 - try ``put test.php`` inside the ftp
 
-![[Method 1.png| 500]]
+<div align="center">
+
+<img width="420" alt="jangow01 - Method 1" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%201.png?raw=true">
+
+[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
+
+</div>
 
 ### Method 2: Using Netcat 🥅🐈‍⬛🐈
 
@@ -421,12 +427,24 @@ help
 
 ```
 
-![[Method 2.png | 500]]
+<div align="center">
+
+<img width="420" alt="jangow01 - Method 2" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%202.png?raw=true">
+
+[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
+
+</div>
 
 
 ### Method 3: Using Bash Shell Script
 
-![[Method 3.png | 500]]
+<div align="center">
+
+<img width="420" alt="jangow01 - Method 3" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%203.png?raw=true">
+
+[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
+
+</div>
 
 - Get code from site [reverse-shell-cheat-sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
 - netcap `nc -lvnp 443`
