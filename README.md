@@ -14,6 +14,8 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 <img alt="Sad Phone User 🤳" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/SadPhoneUser.gif?raw=true">
 
+### [🔤 Cybersecurity from A to Z - Learn how to hack word by word... Literally 🔤](https://www.hackthebox.com/resources/hacking-glossary)
+
 </div>
 
 <hr>
