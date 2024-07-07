@@ -401,8 +401,6 @@ d41d8cd98f00b204e9800998ecf8427e
 
 <img width="720" alt="jangow01 - Method 1" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%201.png?raw=true">
 
-[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
-
 </div>
 
 ### Method 2: Using Netcat 🥅🐈‍⬛🐈
@@ -431,8 +429,6 @@ help
 
 <img width="720" alt="jangow01 - Method 2" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%202.png?raw=true">
 
-[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
-
 </div>
 
 
@@ -441,8 +437,6 @@ help
 <div align="center">
 
 <img width="720" alt="jangow01 - Method 3" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/VulnHub/jangow01/Method%203.png?raw=true">
-
-[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
 
 </div>
 
@@ -763,6 +757,7 @@ https://blog.theori.io/research/CVE-2022-32250-linux-kernel-lpe-2022/
 
 ![[Pasted image 20240706212326.png]]
 
+
 # `./CVE-2017-16995`
 
 
@@ -913,5 +908,4 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 
 
-
-![](https://www.youtube.com/watch?v=4f_CQ0tyQRw)
+[![Jangow01-1.0.1 || VulnHub Complete Walkthrough](https://img.youtube.com/vi/4f_CQ0tyQRw/maxresdefault.jpg)](https://youtu.be/4f_CQ0tyQRw)
