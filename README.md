@@ -205,6 +205,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🔎🕷️ Exploit Database - Google Hacking Database 🕷️🔍](https://www.exploit-db.com/google-hacking-database)
 
+## [🐶⚡ Dog Bolt - Decompiler Explorer ⚡🐶](https://dogbolt.org/)
+
 
 <br>
 
