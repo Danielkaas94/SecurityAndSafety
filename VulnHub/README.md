@@ -55,3 +55,19 @@ Operating System: Linux
 ---
 
 
+## The Planets: Mercury ☿ ☿ ☿ ✅🥇✅ ☿ ☿ ☿
+
+### [THE PLANETS: MERCURY ~ VulnHub](https://www.vulnhub.com/entry/the-planets-mercury,544/)
+
+Difficulty: Easy
+
+Mercury is an easier box, with no bruteforcing required. There are two flags on the box: a user and root flag which include an md5 hash. This has been tested on VirtualBox so may not work correctly on VMware. Any questions/issues or feedback please email me at: SirFlash at protonmail.com
+
+Operating System: Linux
+
+
+<div align="center">
+
+[![The Planets: Mercury || VulnHub Complete Walkthrough](https://img.youtube.com/vi/B-tgLDA0QvU/maxresdefault.jpg)](https://youtu.be/B-tgLDA0QvU)
+
+</div>
