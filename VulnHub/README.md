@@ -71,3 +71,24 @@ Operating System: Linux
 [![The Planets: Mercury || VulnHub Complete Walkthrough](https://img.youtube.com/vi/B-tgLDA0QvU/maxresdefault.jpg)](https://youtu.be/B-tgLDA0QvU)
 
 </div>
+
+---
+---
+
+
+## The Planets: Mercury ☿ ☿ ☿ ✅🥇✅ ☿ ☿ ☿
+
+### [THE PLANETS: VENUS ~ VulnHub](https://www.vulnhub.com/entry/the-planets-venus,705/)
+
+Difficulty: Medium
+
+Venus is a medium box requiring more knowledge than the previous box, "Mercury", in this series. There are two flags on the box: a user and root flag which include an md5 hash. This has been tested on VirtualBox so may not work correctly on VMware. Any questions/issues or feedback please email me at: SirFlash at protonmail.com
+
+Operating System: Linux
+
+
+<div align="center">
+
+[![The Planets: Venus || VulnHub Complete Walkthrough](https://img.youtube.com/vi/Mb1rG5Hp6U4/maxresdefault.jpg)](https://youtu.be/Mb1rG5Hp6U4)
+
+</div>
