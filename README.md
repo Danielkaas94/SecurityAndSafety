@@ -216,6 +216,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [ANY ▶️ RUN - Interactive malware Hunting service](https://any.run/)
 
+## [SOC Prime - Outscale cyber threats](https://socprime.com/)
+
 
 <br>
 
