@@ -212,6 +212,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [urlscan.io - A sandbox for the web 📦🕸️](https://urlscan.io/)
 
+## [🆓 Splunk - Free Training 🆓](https://www.splunk.com/en_us/training/free-courses/overview.html)
+
 
 <br>
 
