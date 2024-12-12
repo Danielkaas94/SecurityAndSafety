@@ -21,6 +21,8 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 ### [🪟🧊🗻 The Windows Iceberg Explained 🗻🧊🪟](https://www.youtube.com/watch?v=o1LxZ5Iqlqk)
 
+### [🐧🧊🗻 The Linux Iceberg Explained 🗻🧊🐧](https://www.youtube.com/watch?v=ghmvH26LnCY)
+
 
 </div>
 
