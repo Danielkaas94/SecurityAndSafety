@@ -23,6 +23,9 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 ### [🐧🧊🗻 The Linux Iceberg Explained 🗻🧊🐧](https://www.youtube.com/watch?v=ghmvH26LnCY)
 
+### [👨‍💻🧊🗻 The Cybersecurity Iceberg Explained 🗻🧊👨‍💻](https://www.youtube.com/watch?v=EMTgxXCijv0)
+
+
 
 </div>
 
