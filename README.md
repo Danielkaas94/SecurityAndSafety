@@ -19,6 +19,9 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 
 ### [🔤 Cybersecurity from A to Z - Learn how to hack word by word... Literally 🔤](https://www.hackthebox.com/resources/hacking-glossary)
 
+### [🪟🧊🗻 The Windows Iceberg Explained 🗻🧊🪟](https://www.youtube.com/watch?v=o1LxZ5Iqlqk)
+
+
 </div>
 
 <hr>
