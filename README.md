@@ -1,12 +1,15 @@
 
 <div align="center">
 
+## [🟩🟢💚 textfiles.com 💚🟢🟩](http://www.textfiles.com/)
+## [🟦🔵💙 TOTSE - Temple of the Screaming Electron 💙🔵🟦](https://newtotse.com/oldtotse/en/_faq/totse_faq.html)
 ## [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
 ## [The Cyber Threat Against Denmark 🧑‍💻](https://www.cfcs.dk/en/cybertruslen/threat-assessments/the-cyber-threat-against-denmark/)
 ## [💸💸 Forsikringsselskaber har undervurderet cybertruslen: Ransomware får priserne til at stige 💸💸](https://www.version2.dk/artikel/forsikringsselskaber-har-undervurderet-cybertruslen-ransomware-faar-priserne-til-stige)
 ## [🔥🌶️Dansk hostingselskab lagt ned af ransomware: Kunder har mistet al data 🌶️🔥](https://www.version2.dk/artikel/dansk-hostingselskab-lagt-ned-af-ransomware-kunder-har-mistet-al-data)
 ## [Dale's Unsolicited Response Podcast 🗣️💬🎙️🤔](https://dale-peterson.com/podcast-2/)
 ## [MITRE ATT&CK® Navigator 🗺️](https://mitre-attack.github.io/attack-navigator/)
+## [📄📜📄 SANS - Rules of Engagement Worksheet - Powered by Egnyte 📄📜📄](https://sansorg.egnyte.com/dl/bF4I3yCcnt/)
 
 
 # 🔐 Security & Safety 🔐
@@ -15,6 +18,14 @@ SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &amp; SAFETY, SECURITY &a
 <img alt="Sad Phone User 🤳" src="https://github.com/Danielkaas94/SecurityAndSafety/blob/main/SadPhoneUser.gif?raw=true">
 
 ### [🔤 Cybersecurity from A to Z - Learn how to hack word by word... Literally 🔤](https://www.hackthebox.com/resources/hacking-glossary)
+
+### [🪟🧊🗻 The Windows Iceberg Explained 🗻🧊🪟](https://www.youtube.com/watch?v=o1LxZ5Iqlqk)
+
+### [🐧🧊🗻 The Linux Iceberg Explained 🗻🧊🐧](https://www.youtube.com/watch?v=ghmvH26LnCY)
+
+### [👨‍💻🧊🗻 The Cybersecurity Iceberg Explained 🗻🧊👨‍💻](https://www.youtube.com/watch?v=EMTgxXCijv0)
+
+
 
 </div>
 
@@ -206,6 +217,14 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 ## [🔎🕷️ Exploit Database - Google Hacking Database 🕷️🔍](https://www.exploit-db.com/google-hacking-database)
 
 ## [🐶⚡ Dog Bolt - Decompiler Explorer ⚡🐶](https://dogbolt.org/)
+
+## [urlscan.io - A sandbox for the web 📦🕸️](https://urlscan.io/)
+
+## [🆓 Splunk - Free Training 🆓](https://www.splunk.com/en_us/training/free-courses/overview.html)
+
+## [ANY ▶️ RUN - Interactive malware Hunting service](https://any.run/)
+
+## [SOC Prime - Outscale cyber threats](https://socprime.com/)
 
 
 <br>
