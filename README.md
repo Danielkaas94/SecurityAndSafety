@@ -10,7 +10,7 @@
 ## [Dale's Unsolicited Response Podcast 🗣️💬🎙️🤔](https://dale-peterson.com/podcast-2/)
 ## [MITRE ATT&CK® Navigator 🗺️](https://mitre-attack.github.io/attack-navigator/)
 ## [📄📜📄 SANS - Rules of Engagement Worksheet - Powered by Egnyte 📄📜📄](https://sansorg.egnyte.com/dl/bF4I3yCcnt/)
-## [OWASP Aarhus](https://owasp.org/www-chapter-aarhus/)
+## [🐝🐝🐝 OWASP Aarhus 🐝🐝🐝](https://owasp.org/www-chapter-aarhus/)
 
 
 
