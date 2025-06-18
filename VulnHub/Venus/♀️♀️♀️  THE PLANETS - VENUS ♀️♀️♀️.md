@@ -1,4 +1,4 @@
-#Venus #ThePlanets #VulnHub #Linux #Planets 
+![Django administration](https://github.com/user-attachments/assets/c1bc3d20-39f8-486c-939c-08164e67d9ee)#Venus #ThePlanets #VulnHub #Linux #Planets 
 
 ### [The Planets: Venus ~ VulnHub](https://www.vulnhub.com/entry/the-planets-venus,705/)
 
@@ -186,7 +186,7 @@ Nmap done: 1 IP address (1 host up) scanned in 102.96 seconds
 ### Time to check the Site on port 8080
 
 #### Venus Monitoring Login
-![[Venus Monitoring Login.png]]
+![Venus](Venus%20Monitoring%20Login.png)
 
 You can login with guest:guest
 
@@ -217,7 +217,7 @@ Progress: 42023 / 220561 (19.05%)
 ```
 
 If we check the admin page, this is what we get:
-![[Django administration.png]]
+![Venus](DjangoAdministration.png)
 
 It will give Server Error (500) no matter what, probably because we are logged in as guest
 
@@ -237,7 +237,7 @@ It will give Server Error (500) no matter what, probably because we are logged i
 
 Check proxy settings in Burp Suite and add the IP/port to FoxyProxy
 
-![[Proxy_Burp.png]]
+![Venus](Proxy_Burp.png)
 
 Alright when you reload the page, you will get this response:
 
@@ -324,7 +324,7 @@ guest:thrfg
 You can clearly see that the input `thrfg` gives the output `guest` with ROT13
 
 
-![[guest_decodeBase64.png]]
+![Venus](guest_decodeBase64.png)
 
 
 
@@ -348,7 +348,7 @@ hydra -L /usr/share/wordlists/rockyou.txt -p pass -s 8080 192.168.56.117 http-po
 hydra -L /usr/share/wordlists/rockyou.txt -p pass -s 8080 192.168.56.117 http-post-form "/:username=^USER^&password=^PASS^:Invalid username."
 ```
 
-![[kali_hydra.png]]
+![Venus](kali_hydra.png)
 
 ```
 ┌──(kali㉿kali)-[~]
@@ -425,9 +425,9 @@ Upgrade-Insecure-Requests: 1
 - ``dmVudXM6aXJhaGY=`` is ``venus:irahf``
 - `bWFnZWxsYW46aXJhaGZ2bmF0cmJ5YnRsMTk4OQ==` is `magellan:irahfvnatrbybtl1989`
 
-![[FromBase64.png]]
+![Venus](FromBase64.png)
 
-![[ToBase64.png]]
+![Venus](ToBase64.png)
 
 
 ---
@@ -453,7 +453,7 @@ magellan:venusiangeology1989
 - magellan:venusiangeology1989 is able to login with SSH
 - ssh magellan@192.168.56.117
 
-![[VulnHub - Hacking 👨‍💻/Venus/user_flag.png]]
+![Venus](user_flag.png)
 
 # Privilege Escalation
 
@@ -473,7 +473,7 @@ magellan:venusiangeology1989
 
 [[Response from linpeas - Venus]]
 
-![[wget_linpeas.png]]
+![Venus](wget_linpeas.png)
 
 - We will use the Vulnerability of `[CVE-2021-4034] PwnKit` 
 ```json
@@ -496,9 +496,9 @@ Download URL: https://codeload.github.com/berdav/CVE-2021-4034/zip/main
 - go to the `/root` directory
 - cat the root_flag.txt
 
-![[make_pwnkit.png]]
+![Venus](make_pwnkit.png)
 
-![[VulnHub - Hacking 👨‍💻/Venus/root_flag.png]]
+![Venus](root_flag.png)
 
 
 
