@@ -38,7 +38,7 @@ Change Network from Bridge to Host-Only
 
 ## netdiscover
 
-![[VulnHub - Hacking 👨‍💻/Mercury/netdiscover.png]]
+![Mercury](netdiscover.png)
 
 
 
@@ -186,7 +186,7 @@ Check out the website http://192.168.56.115:8080/
 
 `gobuster dir -u http://192.168.56.115:8080/ -w /usr/share/wordlists/dirb/common.txt`
 
-![[gobuster.png]]
+![Mercury](gobuster.png)
 
 - You will find robots.txt
 
@@ -204,7 +204,7 @@ Disallow: /
 ### Error - http://192.168.56.115:8080/*
 
 
-![[PageNotFound.png]]
+![Mercury](PageNotFound.png)
 
 
 
@@ -216,7 +216,7 @@ Disallow: /
 
 # Mercury Facts
 
-![[Mercury_dev.png]]
+![Mercury](Mercury_dev.png)
 
 There are 8 facts - http://192.168.56.115:8080/mercuryfacts/8/
 ```
@@ -247,7 +247,7 @@ Still todo:
 ## SQL MAP
 #SQLmap #SQLInjection 
 
-![[sqlmap.png]]
+![Mercury](sqlmap.png)
 
 
 ```sh
@@ -572,7 +572,7 @@ ssh webmaster@192.168.56.115
 
 You will find out that the connection with username webmaster is working.
 
-![[user_flag.png]]
+![Mercury](user_flag.png)
 
 
 ---

@@ -41,7 +41,7 @@ nmap -sC -sV 192.168.56.120
 Port 21 FTP
 Port 80 HTTP 
 
-![[Pasted image 20250325001618.png]]
+![MoneyHeist](Nmap.png)
 
 
 
@@ -120,7 +120,7 @@ We need your help to catch the professor, will you help us ?
 ---
 ### HTTP
 
-![[Pasted image 20250325004659.png]]
+![MoneyHeist](Crew.png)
 
 ```sh
 ┌──(kali㉿kali)-[~]
@@ -222,7 +222,7 @@ tokyo.jpeg: data
 
 #### Hex Editor tokyo.jpeg
 
-![[Pasted image 20250325010103.png]]
+![MoneyHeist](FileFormat_Hex.png)
 
 ```
 00000000  0A 4A EE E0  00 10 4A 46   49 46 00 01  01 01 00 60
@@ -233,7 +233,7 @@ tokyo.jpeg: data
 
 ```
 
-![[Pasted image 20250325010658.png | 500]]
+![MoneyHeist](Pasted%20image%2020250325010658.png)
 
 ---
 
@@ -283,7 +283,7 @@ noteUT
 
 ## /BankOfSp41n
 
-![[Pasted image 20250325011841.png]]
+![MoneyHeist](la_casa_de_papel_building.png)
 
 
 ```sh
@@ -327,7 +327,7 @@ Finished
 
 ## Login.php
 
-![[Pasted image 20250402211943.png]]
+![MoneyHeist](Login.png)
 
 
 ```
@@ -358,7 +358,7 @@ So we got the username and password for the login
 
 #### BankOfSp41n/indax.html
 
-![[Pasted image 20250402214243.png]]
+![MoneyHeist](la_casa_de_papel.png)
 
 Again, check the page source (CTRL + U)
 
@@ -406,7 +406,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-04-02 22:11:
 
 with the username "**arturo**" we found out that the password is "**corona**"
 
-![[Pasted image 20250402221747.png]]
+![MoneyHeist](Login_corona.png)
 
 
 
@@ -2369,7 +2369,7 @@ Don't trust anyone so quickly, until can see everything clearly!!!
 
 ##### Invalid Morse Code
 
-![[Pasted image 20250402235148.png | 350]]
+![MoneyHeist](TapCode.png)
 
 `I55EEH5EEESSISISEEI5SIIEE5E5S5ESS5`
 
@@ -2384,7 +2384,7 @@ Message-Result: **jvdvanhhajmfeepcp**
 
 Try decode the output with ROT13 cipher
 
-![[Pasted image 20250402235906.png | 200]]
+![MoneyHeist](Rot13_Mapping.png)
 
 [ROT13 Decoder - Online ROT 13 Tool](https://www.rot13.app/)
 
@@ -2495,7 +2495,7 @@ Nairobi was shot by an snipher man, near the  HEART !!
 ```
 
 
-![[nairobi_snipher_note.png]]
+![MoneyHeist](nairobi_snipher_note.png)
 
 It's time to use Linpeas.sh yet again 🫛
 
@@ -2671,7 +2671,7 @@ root@Money-Heist:~#
 ```
 
 
-![[MoneyHeist_RootFlag.png]]
+![MoneyHeist](MoneyHeist_RootFlag.png)
 
 
 
