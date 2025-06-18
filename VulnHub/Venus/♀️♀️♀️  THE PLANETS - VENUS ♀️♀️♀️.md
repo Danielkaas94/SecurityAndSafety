@@ -1,4 +1,4 @@
-![Django administration](https://github.com/user-attachments/assets/c1bc3d20-39f8-486c-939c-08164e67d9ee)#Venus #ThePlanets #VulnHub #Linux #Planets 
+#Venus #ThePlanets #VulnHub #Linux #Planets 
 
 ### [The Planets: Venus ~ VulnHub](https://www.vulnhub.com/entry/the-planets-venus,705/)
 
