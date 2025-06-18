@@ -133,7 +133,8 @@ Nmap done: 1 IP address (1 host up) scanned in 9.98 seconds
 
 Eager to check the website, but got this borderline satanic message
 
-![[Website_Lampiao_80.png]]
+![Alt text](./Website_Lampiao_80.png)
+
 
 ```txt
  _____ _   _                                                      
@@ -289,7 +290,7 @@ Nmap done: 1 IP address (1 host up) scanned in 44.17 seconds
 
 And this Site http://192.168.56.122:1898/ have a much different webpage with a login!
 
-![[Website_Lampiao_1898.png]]
+![Alt text](Website_Lampiao_1898.png)
 
 As you can see on this webpage, there are some articles submitted by different users:
 - tiago
@@ -393,7 +394,7 @@ This method gave us user access, but we need root access, we can do that my expl
 
 ## Wappalyzer
 
-![[Wappalyzer_install.png]]
+![Alt text](Wappalyzer_install.png)
 
 Nice! 🎉 Wappalyzer is a powerful tool for reconnaissance—especially useful if you're into penetration testing or just curious about the technologies behind websites.
 With it, you can quickly identify:
@@ -407,11 +408,11 @@ With it, you can quickly identify:
 It’s a great way to build a profile of your target during the initial stages of a pentest or CTF.
 
 
-![[Wappalyzer_Lampiao.png]]
+![Alt text](Wappalyzer_Lampiao.png)
 
 ### Alternative use whatweb inside the terminal
 
-![[whatweb.png]]
+![Alt text](whatweb.png)
 
 ```bash
 #whatweb
@@ -2927,7 +2928,7 @@ root@lampiao:~#
 
 
 
-![[Pasted image 20250523221123.png]]
+![Alt text](root_lampiao.png)
 
 
 ### Bonus
