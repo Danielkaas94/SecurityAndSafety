@@ -96,9 +96,19 @@ netsh wlan show profile name="Name" key=clear
 :: Check for connections
 netstat -ano | findstr "ESTABLISHED"
 
+:: Check who makes that connection
+PS C:\Users\danie> tasklist /FI "PID eq 41624"
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+brave.exe                    41624 Console                    7     57.108 K
+
 :: Get path from processid
 wmic process where processid=1337 get ExecutablePath
+
+:: In Wireshark, you could use this filter:
+tcp.port == 443 and process.pid == 41624
 ```
+
 
 <!-- ### Enable WireShark with Dark Mode by using this command: 🌑
 ```bat

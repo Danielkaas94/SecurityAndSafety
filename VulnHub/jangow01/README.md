@@ -21,16 +21,15 @@ SHA1: 3E50B4168FA2D83AA10F05D2F66C5A7071F3C927
 
 192.168.56.118
 
-![[jangow01 - login.png]]
+![Jangow](jangow01%20-%20login.png)
 
 ---
 
 ## 5. Juli - 2024 - Real Start & Scanning
 
+![Jangow](ping.png)
 
-![[Pasted image 20240705181953.png]]
-
-![[Pasted image 20240705183936.png]]
+![Jangow](nmap.png)
 
 ```sh
 ┌──(kali㉿kali)-[~]
@@ -123,7 +122,7 @@ Discovered open port 80/tcp on 192.168.56.118                                 Di
 ```
 
 #enum4linux
-![[Pasted image 20240706115058.png]]
+![Jangow](Pasted%20image%2020240706115058.png)
 
 #SNMP #ssh-audit
 ```sh
@@ -195,7 +194,7 @@ Shellcodes: No Results
 
 ### HTTP
 
-![[HTML_greyscale.png]]
+![Jangow](HTML_greyscale.png)
 
 #### gobuster
 #gobuster
@@ -231,7 +230,7 @@ Finished
 
 #### dirb
 #dirb
-![[Pasted image 20240705235019.png]]
+![Jangow](dirb.png)
 
 
 #### nikto
@@ -294,7 +293,7 @@ Finished
 - [ ] hydra -l admin -P rockyou.txt ftp://192.168.56.118
 - [ ] hydra -l jangow01 -P rockyou.txt ftp://192.168.56.118
 
-![[Pasted image 20240706153706.png]]
+![Jangow](Pasted%20image%2020240706153706.png)
 
 
 
@@ -499,7 +498,7 @@ drwxrwxr-x 2 jangow01 desafio02 4096 Jun 10  2021 .nano
 ## Privilege Escalation
 #PrivilegeEscalation
 
-![[linpeas.png| 400]]
+![Jangow](linpeas.png)
 
 - [GitHub - PEASS-ng](https://github.com/peass-ng/PEASS-ng)
 	- Release - Assets ``linpeas.sh``
@@ -555,7 +554,8 @@ jangow01@jangow01:~$ chmod +x linpeas.sh
 ./linpeas.sh
 ```
 
-![[linpeasInAction.png| 500]]
+![Jangow](linpeasInAction.png)
+
 ### [[jangow01 - linpeas.sh]]
 
 ```sh
@@ -755,7 +755,7 @@ https://blog.theori.io/research/CVE-2022-32250-linux-kernel-lpe-2022/
 
 ### Copiled exploit
 
-![[Pasted image 20240706212326.png]]
+![Jangow](Pasted%20image%2020240706212326.png)
 
 
 # `./CVE-2017-16995`
@@ -867,7 +867,7 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709
 
 ```
 
-![[The Jangow Proof.png]]
+![Jangow](The%20Jangow%20Proof.png)
 
 ---
 ---
