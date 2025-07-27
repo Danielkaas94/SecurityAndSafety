@@ -117,37 +117,37 @@ Alright back to the trouble shooting... Whatever I did I got `Result Code: E_INV
 	- You can find the file on CMD and use this command:
 	  `REN corpvision.ova corpvision.zip`
 
-![[corp_REN.png]]
+![](corp_REN.png)
 
 - Then extract the content of the file.
 
-![[corp_FE.png]]
+![](corp_FE.png)
 
 
 - In Virtual Box you create a "New Machine"!
 - Make it Linux 64 bit
 
-![[corp_createVM.png]]
+![](corp_createVM.png)
 
 - In the settings **"Use an Existing Virtual Hard Disk File"** and use the `corpvision-disk001.vmdk` as the value. 
 
-![[corp_createVM2.png]]
+![](corp_createVM2.png)
 
 
 - But we are not done yet!!
 - Remember, there is also a `corpvision-disk002.vmdk` available, let's add that file also!
 
-![[corp_disk.png]]
+![](corp_disk.png)
 
 - Now! Time for network configuration!
 - Change the Network adapter from ``NAT`` to `Host-only Adapter`
 - Remember that the `"VirtualBox Host-Only Ethernet Adapter"` has to match with your attacking machine.
 
-![[corp_network.png]]
+![](corp_network.png)
 
 - Now we should be able to boot up the vulnerable machine!
 
-![[corp_linux.png]]
+![](corp_linux.png)
 Jackpot!
 
 ---
@@ -155,7 +155,7 @@ Jackpot!
 
  `sudo netdiscover -i eth1`
 
-![[corp_scan.png]]
+![](corp_scan.png)
 
 `nmap -sC -sV <IP> -p-` (For all ports)`
 This gave no results
@@ -187,7 +187,7 @@ Could also just be the wrong IP-address 🙃
 
 - Let's try the others!
 
-![[corp_nmap.png]]
+![](corp_nmap.png)
 
 ```sh
 ┌──(kali㉿kali)-[~]
@@ -221,7 +221,7 @@ Let's check that website as the first obvious thing to do!
 
 What we see if we write the IP-address on the browser:
 
-![[corp_mainsite.png]]
+![](corp_mainsite.png)
 
 Maybe it could be wisely to check the page source, might be clues:
 
@@ -1507,7 +1507,7 @@ Honestly, nothing looks like clues?.... Just a red herring? 🐟
 
 Wappalyzer is also worth digging! To get a better sense of the tech-stack used to build this website
 
-![[corp_wappalyzer.png]]
+![](corp_wappalyzer.png)
 
 ### So far so good, but we are not done, time to bring up the big guns! 💥💨🔫
 
@@ -1518,18 +1518,18 @@ Wappalyzer is also worth digging! To get a better sense of the tech-stack used t
 Let's now use gobuster to find any hidden pages on the website, we will use this command:
 `gobuster dir -u http://192.168.56.123/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt`
 
-![[corp_gobuster.png]]
+![](corp_gobuster.png)
 
 We get a handful of results, but the `/static` seems kind of suspicious.
 
 This is how it looks on the browser:
 
-![[corp_staticAssets.png]]
+![](corp_staticAssets.png)
 
 So we have access to all the `CSS, fonts, images and javascript`
 I think the js/ folder is worth a deeper look 🔎📁📄📂📄🔍
 
-![[corp_staticAssetsJS.png]]
+![](corp_staticAssetsJS.png)
 
 Anyway, after some deep digging to all the files, nothing seems to be able to give us a foothold 🙃🥲🥱😴😌😔🫠
 
@@ -1585,12 +1585,12 @@ Perfect for embedding in development pipelines and scaling across teams.
 
 ---
 
-![[corp_serviceAcunetix.png]]
+![](corp_serviceAcunetix.png)
 
 - Time to use the tool!
 
 These are my results
-![[Pasted image 20250709221203.png]]
+![](corp_results.png)
 
 - Cross site scripting
 - Server-side template injection
@@ -1738,7 +1738,7 @@ The **`Name`** field does not get sanitized, you can try add `{{1337*1337}}` to 
 
 - When we finish filling the form, we can now confirm the SSTI is working. Instead of showing the input, it calculated the two numbers multiplying instead on the "greeting message"
 
-![[corp_Server-Side-Template-Injection.png]]
+![](corp_Server-Side-Template-Injection.png)
 
 ---
 
@@ -2244,7 +2244,7 @@ Error in my payload
 zsh: parse error near `)'
 ```
 
-![[corp_payloadError.png]]
+![](corp_payloadError.png)
 
 Time to find the typo....
 
