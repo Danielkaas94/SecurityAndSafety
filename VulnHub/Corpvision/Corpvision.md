@@ -2422,7 +2422,7 @@ This channel/repository is strictly educational for learning about cyber-securit
 ```
 # VulnHub Pentest Notes - [Corpvision: 1]  
 🎯 **Target IP:** `192.168.56.123`  
-🖥 **OS:** Linux
+🖥 **OS:** Linux  
 📅 **Installation Date:** 2025-07-09  
 ✅ **Completion Date:** 2025-07-27  
 📌 **Status:** "Completed" based on tutorial/Walkthrough minus the reverse shell listening on port 4444
