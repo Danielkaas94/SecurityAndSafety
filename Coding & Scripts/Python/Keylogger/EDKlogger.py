@@ -1,4 +1,4 @@
-#Python code for a wholesome keylogger - Daniel Edition
+#Python code for a wholesome keylogger - Danielkaas94 Edition
 """
 
   _____ _______    _____ _ _    _             _              _
