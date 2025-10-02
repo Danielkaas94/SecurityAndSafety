@@ -20,6 +20,8 @@ Dette dokument opdateres løbende, når jeg finder nye kilder.
   [https://cfcs.dk](https://cfcs.dk)  
 - **Erhvervsstyrelsen** – Vejledninger og nationale implementeringsdetaljer (opdateres ifm. NIS2)  
   [https://erhvervsstyrelsen.dk](https://erhvervsstyrelsen.dk)  
+- **Styrelsen for Samfundssikkerhed** – Implementering af NIS 2 i dansk ret 
+  [https://samsik.dk/nis2/implementering-af-nis-2-i-dansk-ret/](https://samsik.dk/nis2/implementering-af-nis-2-i-dansk-ret/)  
 
 ---
 
