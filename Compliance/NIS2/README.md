@@ -5,7 +5,7 @@ This folder contains my personal notes, resources, and code snippets related to 
 ---
 
 ## 📖 Overview
-The NIS2 Directive (EU Directive 2022/2555) is the EU-wide legislation on cybersecurity, aimed at achieving a high common level of cybersecurity across the Union. It replaces the original NIS Directive (2016).
+The NIS2 Directive (Network and Information Security 2 - EU Directive 2022/2555) is the EU-wide legislation on cybersecurity, aimed at achieving a high common level of cybersecurity across the Union. It replaces the original NIS Directive (2016).
 
 Key points:
 - Expands the scope to more sectors and entities.
