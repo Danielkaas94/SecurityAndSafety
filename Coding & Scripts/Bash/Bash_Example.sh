@@ -168,6 +168,14 @@ else
     echo "You are not 31 years old."
 fi
 
+filename=$3  # Get the filename from the third parameter
+if [ -f "$filename" ] && [ -w "$filename" ]; then
+    echo "The file '$filename' exists and is writable."
+    echo "Hello, World!" > "$filename"  # Write to the file
+else
+    touch "$filename"  # Create the file if it does not exist
+    chmod +w "$filename"  # Make the file writable
+fi
 
 # operators in bash conditionals:
 
