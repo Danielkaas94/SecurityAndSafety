@@ -132,3 +132,81 @@ echo "${transport[@]}"  # Print the array after removing an element
 transport[2]='plane'  # This will add 'plane' as the third element in the array
 echo "${transport[@]}"  # Print the array after adding an element
 
+
+
+# Conditional Statements in Bash
+
+# This conditional statement checks the value of the variable 'age' and prints a message based on its value.
+if [ $age -lt 18 ]; then
+    echo "You are a minor."
+elif [ $age -ge 18 ] && [ $age -lt 65 ]; then
+    echo "You are an adult."
+else
+    echo "You are a senior citizen."
+fi
+
+# Note: In bash, there should be spaces between the brackets and the conditions.
+
+# -z checks if the string is empty.
+if [ -z "$name" ]; then
+    echo "Name is empty."
+else
+    echo "Name is not empty."
+fi
+
+# -n checks if the string is not empty.
+if [ -n "$name" ]; then
+    echo "Name is not empty."
+else
+    echo "Name is empty."
+fi
+
+# -eq checks if two numbers are equal.
+if [ $age -eq 31 ]; then
+    echo "You are 31 years old."
+else
+    echo "You are not 31 years old."
+fi
+
+
+# operators in bash conditionals:
+
+# -eq checks if two numbers are equal.
+# -ne checks if two numbers are not equal.
+# -gt checks if the first number is greater than the second number.
+# -lt checks if the first number is less than the second number.
+# -ge checks if the first number is greater than or equal to the second number.
+# -le checks if the first number is less than or equal to the second number.
+# && is a logical AND operator.
+# || is a logical OR operator.
+# ! is a logical NOT operator.
+# -z checks if the string is empty.
+# -n checks if the string is not empty.
+# -f checks if a file exists and is a regular file.
+# -d checks if a directory exists.
+# -r checks if a file is readable.
+# -w checks if a file is writable.
+# -x checks if a file is executable.
+# -s checks if a file is not empty.
+# -e checks if a file or directory exists.
+# -o checks if a file or directory exists (same as -e).
+# -L checks if a file is a symbolic link.
+# -c checks if a file is a character device file.
+# -b checks if a file is a block device file.
+# -p checks if a file is a named pipe (FIFO).
+# -S checks if a file is a socket.
+# -t checks if a file descriptor is open and refers to a terminal.
+# -u checks if a file has its set-user-ID bit set.
+# -g checks if a file has its set-group-ID bit set.
+# -k checks if a file has its sticky bit set.
+# -T checks if a file is a text file.
+# -B checks if a file is a binary file.
+# -N checks if a file has been modified since it was last read.
+# -O checks if a file is owned by the current user.
+# -G checks if a file is owned by the current group.
+# -A checks if a file has been accessed since it was last modified.
+# -C checks if a file has been changed since it was last modified.
+# -M checks if a file has been modified since it was last modified.
+# -R checks if a file is readable by the current user.
+# -W checks if a file is writable by the current user.
+# -X checks if a file is executable by the current user.
