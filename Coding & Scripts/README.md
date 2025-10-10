@@ -7,8 +7,8 @@
 
 ## Coding Resources
 ### Bash/Shell
-- [Bash scripting cheatsheet - devhints](https://devhints.io/bash)
 - [Bash/Shell cheatsheets - CodeCademy](https://www.codecademy.com/resources/cheatsheets/language/bash)
+- [Bash scripting cheatsheet - devhints](https://devhints.io/bash)
 
 ### C#
 - [C# cheatsheets - CodeCademy](https://www.codecademy.com/resources/cheatsheets/language/c-sharp)
