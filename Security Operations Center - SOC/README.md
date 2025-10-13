@@ -122,6 +122,9 @@ Each playbook should include:
 
 Maintained as part of the [SecurityAndSafety](https://github.com/Danielkaas94/SecurityAndSafety) repository.
 
+
+### 🧠 Brainstorm: Folder Structure
+
 ```
 SecurityAndSafety/
 └── SOC/
@@ -162,3 +165,50 @@ SecurityAndSafety/
         ├── best_practices.md
         └── further_reading.md
 ```
+
+---
+---
+---
+
+## SOC Workflow Diagram - Mermaid
+
+```mermaid
+flowchart LR
+    subgraph Endpoints & Network
+        EDR[EDR / NDR Systems]
+    end
+
+    subgraph Monitoring & Analysis
+        SIEM[SIEM System]
+    end
+
+    subgraph Automation & Response
+        SOAR[SOAR System]
+    end
+
+    subgraph Ticketing & Reporting
+        ITSM[ITSM System]
+    end
+
+    %% Flow arrows
+    EDR --> SIEM
+    SIEM --> SOAR
+    SOAR --> ITSM
+    SIEM --> ITSM
+    SOAR --> EDR
+
+```
+
+
+### Explanation of the flow:
+
+1. **EDR/NDR systems** detect suspicious activity on endpoints or the network.  
+2. Alerts are **sent to SIEM** for aggregation, correlation, and enrichment.  
+3. **SOAR** can automatically respond to incidents, enrich alerts, or orchestrate workflows.  
+4. Both **SIEM and SOAR feed incidents into ITSM** for ticketing, tracking, and reporting.  
+5. SOAR may also **communicate back to EDR/NDR** to enforce containment actions.  
+
+This creates a full-cycle view of **detection → analysis → response → reporting**.
+
+---
+---
