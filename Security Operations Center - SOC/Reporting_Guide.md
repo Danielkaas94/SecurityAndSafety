@@ -1,5 +1,4 @@
-# Alert Reporting Template
-Path suggestion: `SOC/reports/alert_report_template.md`
+# Alert Reporting Guide
 
 ## Purpose
 This document defines a standard format for L1 analysts to write alert reports. Asking L1 analysts to write short reports, in addition to marking True/False Positive, is important because:
