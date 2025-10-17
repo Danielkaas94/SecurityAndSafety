@@ -2,6 +2,8 @@
 
 This folder contains my personal notes, resources, and code snippets related to the **NIS2 Directive** and its implementation.
 
+Feel free to check [ISO27001](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/ISO27001) and [CIS18](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/CIS18%20-%20Center%20for%20Internet%20Security%20Critical%20Security%20Controls)
+
 ---
 
 ## 📖 Overview
