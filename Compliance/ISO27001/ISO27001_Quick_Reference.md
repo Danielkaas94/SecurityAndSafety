@@ -9,13 +9,13 @@ It links directly to all clauses, Annex A controls, and mappings, providing fast
 
 | Clause | Title | Link |
 |--------|-------|------|
-| 4 | Context of the Organization | [4_Context_of_the_organization.md](./clauses/4_Context_of_the_organization.md) |
-| 5 | Leadership | [5_Leadership.md](./clauses/5_Leadership.md) |
-| 6 | Planning | [6_Planning.md](./clauses/6_Planning.md) |
-| 7 | Support | [7_Support.md](./clauses/7_Support.md) |
-| 8 | Operation | [8_Operation.md](./clauses/8_Operation.md) |
-| 9 | Performance Evaluation | [9_Performance_evaluation.md](./clauses/9_Performance_evaluation.md) |
-| 10 | Improvement | [10_Improvement.md](./clauses/10_Improvement.md) |
+| 4 | Context of the Organization | [4_Context_of_the_organization.md](./Clauses/04_Context_of_the_organization.md) |
+| 5 | Leadership | [5_Leadership.md](./Clauses/05_Leadership.md) |
+| 6 | Planning | [6_Planning.md](./Clauses/06_Planning.md) |
+| 7 | Support | [7_Support.md](./Clauses/07_Support.md) |
+| 8 | Operation | [8_Operation.md](./Clauses/08_Operation.md) |
+| 9 | Performance Evaluation | [9_Performance_evaluation.md](./Clauses/09_Performance_evaluation.md) |
+| 10 | Improvement | [10_Improvement.md](./Clauses/10_Improvement.md) |
 
 ---
 
@@ -23,10 +23,10 @@ It links directly to all clauses, Annex A controls, and mappings, providing fast
 
 | Annex A Group | Link |
 |---------------|------|
-| A.5 Organizational Controls | [A5_Organizational_controls.md](./annexA_controls/A5_Organizational_controls.md) |
-| A.6 People Controls | [A6_People_controls.md](./annexA_controls/A6_People_controls.md) |
-| A.7 Physical Controls | [A7_Physical_controls.md](./annexA_controls/A7_Physical_controls.md) |
-| A.8 Technological Controls | [A8_Technological_controls.md](./annexA_controls/A8_Technological_controls.md) |
+| A.5 Organizational Controls | [A5_Organizational_controls.md](./Annex%20A%20-%20Controls/A5_Organizational_controls.md) |
+| A.6 People Controls | [A6_People_controls.md](./Annex%20A%20-%20Controls/A6_People_controls.md) |
+| A.7 Physical Controls | [A7_Physical_controls.md](./Annex%20A%20-%20Controls/A7_Physical_controls.md) |
+| A.8 Technological Controls | [A8_Technological_controls.md](./Annex%20A%20-%20Controls/A8_Technological_controls.md) |
 
 ---
 
@@ -34,8 +34,8 @@ It links directly to all clauses, Annex A controls, and mappings, providing fast
 
 | Mapping | Link |
 |---------|------|
-| ISO 27001 ↔ NIS2 | [ISO27001_to_NIS2.md](./mappings/ISO27001_to_NIS2.md) |
-| ISO 27001 ↔ ISO 27002 | [ISO27001_to_ISO27002.md](./mappings/ISO27001_to_ISO27002.md) |
+| ISO 27001 ↔ NIS2 | [ISO27001_to_NIS2.md](./Mappings/ISO27001_to_NIS2.md) |
+| ISO 27001 ↔ ISO 27002 | [ISO27001_to_ISO27002.md](./Mappings/ISO27001_to_ISO27002.md) |
 
 ---
 
