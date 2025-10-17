@@ -63,4 +63,16 @@ This clause establishes the requirement for leadership commitment, policy direct
 
 ---
 
-*Next: [Clause 6 — Planning](./6_Planning.md)*
+## 📚 Clauses
+
+| Clause | Title | Link |
+|--------|-------|------|
+| 4 | Context of the Organization | [4_Context_of_the_organization.md](./4_Context_of_the_organization.md) |
+| 5 | Leadership | [5_Leadership.md](./5_Leadership.md) |
+| 6 | Planning | [6_Planning.md](./6_Planning.md) |
+| 7 | Support | [7_Support.md](./7_Support.md) |
+| 8 | Operation | [8_Operation.md](./8_Operation.md) |
+| 9 | Performance Evaluation | [9_Performance_evaluation.md](./9_Performance_evaluation.md) |
+| 10 | Improvement | [10_Improvement.md](./10_Improvement.md) |
+
+---
