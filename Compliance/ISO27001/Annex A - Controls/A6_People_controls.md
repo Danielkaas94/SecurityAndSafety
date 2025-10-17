@@ -49,4 +49,11 @@ The goal is to minimize human risk factors that could lead to security incidents
 
 ---
 
-*Next: [Annex A.7 — Physical Controls](./A7_Physical_controls.md)*
+## 🏛 Annex A Controls
+
+| Annex A Group | Link |
+|---------------|------|
+| A.5 Organizational Controls | [A5_Organizational_controls.md](./annexA_controls/A5_Organizational_controls.md) |
+| A.6 People Controls | [A6_People_controls.md](./annexA_controls/A6_People_controls.md) |
+| A.7 Physical Controls | [A7_Physical_controls.md](./annexA_controls/A7_Physical_controls.md) |
+| A.8 Technological Controls | [A8_Technological_controls.md](./annexA_controls/A8_Technological_controls.md) |
