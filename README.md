@@ -1,17 +1,24 @@
 
 <div align="center">
 
-## [🟩🟢💚 textfiles.com 💚🟢🟩](http://www.textfiles.com/)
-## [🟦🔵💙 TOTSE - Temple of the Screaming Electron 💙🔵🟦](https://newtotse.com/oldtotse/en/_faq/totse_faq.html)
-## [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
-## [The Cyber Threat Against Denmark 🧑‍💻](https://www.cfcs.dk/en/cybertruslen/threat-assessments/the-cyber-threat-against-denmark/)
-## [💸💸 Forsikringsselskaber har undervurderet cybertruslen: Ransomware får priserne til at stige 💸💸](https://www.version2.dk/artikel/forsikringsselskaber-har-undervurderet-cybertruslen-ransomware-faar-priserne-til-stige)
-## [🔥🌶️Dansk hostingselskab lagt ned af ransomware: Kunder har mistet al data 🌶️🔥](https://www.version2.dk/artikel/dansk-hostingselskab-lagt-ned-af-ransomware-kunder-har-mistet-al-data)
-## [Dale's Unsolicited Response Podcast 🗣️💬🎙️🤔](https://dale-peterson.com/podcast-2/)
-## [MITRE ATT&CK® Navigator 🗺️](https://mitre-attack.github.io/attack-navigator/)
-## [📄📜📄 SANS - Rules of Engagement Worksheet - Powered by Egnyte 📄📜📄](https://sansorg.egnyte.com/dl/bF4I3yCcnt/)
-## [🐝🐝🐝 OWASP Aarhus 🐝🐝🐝](https://owasp.org/www-chapter-aarhus/)
-## [🔎🧑‍💻 Find Your Next cyber security opportunity 🧑‍💻🔍](https://www.cyber-hub.dk/)
+# 📃📄 Compliance 📄📃
+
+## [CIS18 - Center for Internet Security Critical Security Controls](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/CIS18%20-%20Center%20for%20Internet%20Security%20Critical%20Security%20Controls)
+## [ISO/IEC 27001](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/ISO27001)
+## [NIS2 - Network and Information Security 2](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/NIS2)
+
+
+### [🟩🟢💚 textfiles.com 💚🟢🟩](http://www.textfiles.com/)
+### [🟦🔵💙 TOTSE - Temple of the Screaming Electron 💙🔵🟦](https://newtotse.com/oldtotse/en/_faq/totse_faq.html)
+### [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
+### [The Cyber Threat Against Denmark 🧑‍💻](https://www.cfcs.dk/en/cybertruslen/threat-assessments/the-cyber-threat-against-denmark/)
+### [💸💸 Forsikringsselskaber har undervurderet cybertruslen: Ransomware får priserne til at stige 💸💸](https://www.version2.dk/artikel/forsikringsselskaber-har-undervurderet-cybertruslen-ransomware-faar-priserne-til-stige)
+### [🔥🌶️Dansk hostingselskab lagt ned af ransomware: Kunder har mistet al data 🌶️🔥](https://www.version2.dk/artikel/dansk-hostingselskab-lagt-ned-af-ransomware-kunder-har-mistet-al-data)
+### [Dale's Unsolicited Response Podcast 🗣️💬🎙️🤔](https://dale-peterson.com/podcast-2/)
+### [MITRE ATT&CK® Navigator 🗺️](https://mitre-attack.github.io/attack-navigator/)
+### [📄📜📄 SANS - Rules of Engagement Worksheet - Powered by Egnyte 📄📜📄](https://sansorg.egnyte.com/dl/bF4I3yCcnt/)
+### [🐝🐝🐝 OWASP Aarhus 🐝🐝🐝](https://owasp.org/www-chapter-aarhus/)
+### [🔎🧑‍💻 Find Your Next cyber security opportunity 🧑‍💻🔍](https://www.cyber-hub.dk/)
 
 
 
