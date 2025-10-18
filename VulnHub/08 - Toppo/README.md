@@ -58,7 +58,7 @@ When you unzip your file, you will get a `toppo.vmdk`, this is basically just th
 
 So let's create a new Virtual Machine
 
-![[Create_VM_Toppo.png]]
+![Toppo](Create_VM_Toppo.png)
 
 
 In the **Hard Disk** section, choose `Use an Existing Virtual Hard Drive File`, then select our `toppo.vmdk`
@@ -69,7 +69,7 @@ Now Go into to the network adapters and change it from `NAT` to `Host-Only Adapt
 
 We should be good to go now!
 
-![[Toppo_Login.png]]
+![Toppo](Toppo_Login.png)
 
 Alright.... I thought it was a good idea to finally clean my long list of virtual adapters for Host-Only, I deleted every single one of them, and created a new one.
 ### The IP address of the taget is 192.168.56.3
@@ -91,7 +91,7 @@ We start out with
 We can also do it much faster, since we know the range with 
 `sudo netdiscover -i eth1 -r 192.168.56.0/24`
 
-![[Toppo_netdiscover.png]]
+![Toppo](Toppo_netdiscover.png)
 
 ## nmap
 nmap -sC -sV 192.168.56.3
@@ -178,7 +178,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.02 seconds
 # Look at that! Something on port 46829! 
 ```
 
-![[Toppo_nmap.png]]
+![Toppo](Toppo_nmap.png)
 
 Alright we can confirm that the following ports are available
 - 22/TCP - SSH - OpenSSH 6.7p1 Debian 5+deb8u4 (protocol 2.0)
@@ -189,12 +189,12 @@ Alright we can confirm that the following ports are available
 ### *As a instinct reaction, let's check the website! There might be a clue* 😁
 
 
-![[Toppo_Web.png]]
+![Toppo](Toppo_Web.png)
 
 Fancy website!
 
 What information do we get from **Wappalyzer**?
-![[Toppo_wappa.png]]
+![Toppo](Toppo_wappa.png)
 
 A fast look into the source code of the page didn't really reveal any clues or hidden comments/pages... There is definitely no ``robots.txt``.
 I guess the natural next step is just to use GoBuster
@@ -243,7 +243,7 @@ Plenty of hidden directories on this server, the one called admin seems the most
 
 Interesting! This page has a ``notes.txt`` for us to read!
 
-![[Toppo_admin.png]]
+![Toppo](Toppo_admin.png)
 
 ```txt
 # Content of notes.txt
@@ -621,7 +621,7 @@ Congratulations ! there is your flag : 0wnedlab{p4ssi0n_c0me_with_pract1ce}
 
 
 
-![[Toppo_flag.png]]
+![Toppo](Toppo_flag.png)
 
 
 ### Method 2 - Python 2.7
