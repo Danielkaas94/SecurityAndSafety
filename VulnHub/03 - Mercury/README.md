@@ -1,5 +1,6 @@
 #Planets #ThePlanets #VulnHub #Mercury 
 
+# ☿ ☿ ☿  THE PLANETS - MERCURY ☿ ☿ ☿
 
 - **Name**: The Planets: Earth
 - **Date release**: 4 Sep 2020
