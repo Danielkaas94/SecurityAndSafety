@@ -12,8 +12,6 @@
 
 ### Download
 
-[Back to the Top](https://www.vulnhub.com/entry/toppo-1,245/#top)
-
 Please remember that VulnHub is a free community resource so we are unable to check the machines that are provided to us. Before you download, please read our FAQs sections dealing with the dangers of running unknown VMs and our suggestions for “protecting yourself and your network. If you understand the risks, please download!
 
 - **Toppo.zip** (Size: 558 MB)
