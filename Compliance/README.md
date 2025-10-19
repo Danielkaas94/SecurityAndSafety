@@ -169,10 +169,3 @@ classDef verylow fill:#a5d6a7,color:#000,stroke:#81c784;
 🟥 **Critical** — Immediate management attention required  
 
 ---
-
-This approach:
-- **Keeps your documentation visual yet compliant** with ISO-style GRC formatting.
-- Looks excellent directly in GitHub.
-- Reinforces your maturity and familiarity with risk methodologies.
-
----
