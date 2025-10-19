@@ -84,6 +84,7 @@ Use it to visualize and rank risks before deciding on treatment strategies.
 - [ISO/IEC 27001:2022 Overview – ISO.org](https://www.iso.org/standard/82875.html)
 - [NIS2 Directive Summary (European Commission)](https://digital-strategy.ec.europa.eu/en/policies/nis2-directive)
 - [NIST Risk Management Framework](https://csrc.nist.gov/projects/risk-management)
+- [How to Make a Risk Assessment Matrix in Excel](https://www.youtube.com/watch?v=KIS4L4kn0RM)
 
 ---
 
