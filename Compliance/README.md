@@ -101,13 +101,6 @@ Use it to visualize and rank risks before deciding on treatment strategies.
 ---
 ---
 
-Excellent idea — yes, **Mermaid** is perfect for this. It’s supported natively in GitHub’s Markdown viewer, and it’ll make your compliance documentation stand out while still looking **professional** and **structured**.
-
-Below is an updated version of your `README.md` section, now featuring a **visual 5×5 Risk Matrix** rendered via **Mermaid**.
-This style is often seen in risk registers and ISO27005 documentation — clean, interpretable, and recruiter-friendly.
-
----
-
 ### 📊 **Visual Risk Matrix (Mermaid)**
 
 ## 📊 Visual Risk Matrix (5×5)
