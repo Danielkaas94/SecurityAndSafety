@@ -615,7 +615,7 @@ root@LazySysAdmin:~#
 # VulnHub Pentest Notes - [Machine Name]  
 🔍 **Target IP:** `X.X.X.X`  
 🖥 **OS:** Linux/Windows (Update accordingly)  
-📅 **Date:** YYYY-MM-DD  
+📅 **Date:** 2025-10-19  
 
 ---
 ## Resources & References  
