@@ -268,6 +268,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 | 2 | Data Link    | Sniffing, ARP cache poisoning, macof attack                                 |
 | 1 | Physical     | Cutting cables, jamming, keystroke logging                                  |
 
+### I would tell you all a funny UDP joke but you may not get it.
+
 
 <br>
 
