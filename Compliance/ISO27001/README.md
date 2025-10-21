@@ -76,6 +76,7 @@ This documentation can support:
 - [ISO/IEC 27001:2022 – Official Standard](https://www.iso.org/standard/82875.html)
 - [ISO/IEC 27002:2022 – Code of Practice for Information Security Controls](https://www.iso.org/standard/75652.html)
 - [ENISA: Implementation Guidance for ISO 27001 & NIS2](https://www.enisa.europa.eu/)
+- [Advisera: ISO 27001 Annex A Controls](https://advisera.com/iso27001/annex-a-controls/)
 
 ---
 ---
