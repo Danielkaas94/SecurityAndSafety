@@ -1,5 +1,8 @@
 # Håndtering når ledelsen ignorerer cybersikkerhed (NIS2-kontext)
 
+[English version](./Handling_when_management_ignores_security_EN.md)
+
+
 ## Formål
 Dette dokument beskriver en professionel og etisk fremgangsmåde, hvis organisationens ledelse ikke tager det nødvendige ansvar for informationssikkerhed i henhold til **NIS2-direktivet** og **ISO 27001**.  
 Målet er at sikre, at sikkerhedsarbejde forankres i organisationens øverste ledelseslag, som direktivet kræver.
