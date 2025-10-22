@@ -71,12 +71,12 @@ Clause 7 ensures that the organization provides the necessary **resources, compe
 
 | Clause | Title | Link |
 |--------|-------|------|
-| 4 | Context of the Organization | [4_Context_of_the_organization.md](./4_Context_of_the_organization.md) |
-| 5 | Leadership | [5_Leadership.md](./5_Leadership.md) |
-| 6 | Planning | [6_Planning.md](./6_Planning.md) |
-| 7 | Support | [7_Support.md](./7_Support.md) |
-| 8 | Operation | [8_Operation.md](./8_Operation.md) |
-| 9 | Performance Evaluation | [9_Performance_evaluation.md](./9_Performance_evaluation.md) |
+| 4 | Context of the Organization | [4_Context_of_the_organization.md](./04_Context_of_the_organization.md) |
+| 5 | Leadership | [5_Leadership.md](./05_Leadership.md) |
+| 6 | Planning | [6_Planning.md](./06_Planning.md) |
+| 7 | Support | [7_Support.md](./07_Support.md) |
+| 8 | Operation | [8_Operation.md](./08_Operation.md) |
+| 9 | Performance Evaluation | [9_Performance_evaluation.md](./09_Performance_evaluation.md) |
 | 10 | Improvement | [10_Improvement.md](./10_Improvement.md) |
 
 ---
