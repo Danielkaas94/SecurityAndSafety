@@ -14,9 +14,9 @@ These controls aim to prevent unauthorized physical access, damage, or interfere
 | **A.7.1** | Physical Security Perimeter | Define and secure areas where sensitive information or critical assets are processed or stored. Apply barriers, signage, and entry restrictions. |
 | **A.7.2** | Physical Entry Controls | Implement controlled entry mechanisms such as access badges, PINs, logs, or biometric authentication. Monitor and review access logs regularly. |
 | **A.7.3** | Securing Offices, Rooms, and Facilities | Protect offices, server rooms, and other facilities against unauthorized access, environmental hazards, and physical theft. |
-| **A.7.4** | Protecting Against Physical and Environmental Threats | Deploy fire suppression systems, temperature and humidity controls, water leak detectors, and environmental monitoring sensors. |
-| **A.7.5** | Working in Secure Areas | Limit access to authorized personnel only; enforce escort policies, monitoring, and visitor controls. |
-| **A.7.6** | Delivery and Loading Areas | Control entry points for deliveries, loading docks, and service entrances to prevent unauthorized access or smuggling of malicious devices. |
+| **A.7.4** | Physical security monitoring | Physical security monitoring requires companies to monitor access to secure areas in order to prevent unauthorized access. |
+| **A.7.5** | Protecting Against Physical and Environmental Threats | Deploy fire suppression systems, temperature and humidity controls, water leak detectors, and environmental monitoring sensors. |
+| **A.7.6** | Working in Secure Areas | Limit access to authorized personnel only; enforce escort policies, monitoring, and visitor controls. |
 | **A.7.7** | Clear Desk and Clear Screen | Ensure sensitive information is not left unattended on desks or screens when not in use; enforce document and device storage policies. |
 | **A.7.8** | Equipment Siting and Protection | Place IT and critical equipment in secure, environmentally controlled areas; protect against damage, theft, and interference. |
 | **A.7.9** | Security of Assets Off-Premises | Apply appropriate controls for laptops, mobile devices, and portable storage used outside secure areas (encryption, secure transport). |
