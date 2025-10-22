@@ -11,11 +11,15 @@ The goal is to minimize human risk factors that could lead to security incidents
 
 | Control ID | Title | Summary |
 |-------------|--------|----------|
-| **A.6.1** | Screening | Conduct background verification checks before employment. |
-| **A.6.2** | Terms and Conditions of Employment | Include information security responsibilities in contracts. |
-| **A.6.3** | Awareness, Education and Training | Ensure employees are aware of policies and trained regularly. |
-| **A.6.4** | Disciplinary Process | Establish and communicate a disciplinary process for breaches. |
-| **A.6.5** | Responsibilities after Termination or Change of Employment | Remove access rights and remind departing staff of confidentiality obligations. |
+| **A.6.1** | Screening | Conduct background verification checks on candidates, proportional to business requirements, classification of information, and perceived risks. |
+| **A.6.2** | Terms and Conditions of Employment | Include employees’ and contractors’ information security responsibilities within their contractual agreements. |
+| **A.6.3** | Awareness, Education and Training | Implement ongoing information security awareness programs and ensure employees receive relevant training. |
+| **A.6.4** | Disciplinary Process | Establish and communicate a clear disciplinary process for security breaches or policy violations. |
+| **A.6.5** | Responsibilities after Termination or Change of Employment | Ensure access rights are removed or adjusted upon role change or departure. Remind staff of continuing confidentiality obligations. |
+| **A.6.6** | Confidentiality or Non-Disclosure Agreements | Require employees and contractors to sign NDAs or equivalent agreements to protect sensitive information. |
+| **A.6.7** | Remote Working | Define and enforce security controls for remote and hybrid working environments, including device and data handling expectations. |
+| **A.6.8** | Information Security Event Reporting | Encourage personnel to promptly report security incidents or suspicious activities through defined channels. |
+
 
 ---
 
