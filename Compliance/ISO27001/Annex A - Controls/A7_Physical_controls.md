@@ -10,13 +10,22 @@ These controls aim to prevent unauthorized physical access, damage, or interfere
 ## 🔑 Control Areas
 
 | Control ID | Title | Summary |
-|-------------|--------|----------|
-| **A.7.1** | Physical Security Perimeter | Secure areas must be protected with appropriate entry controls. |
-| **A.7.2** | Physical Entry Controls | Implement mechanisms such as badges, logs, or biometric access. |
-| **A.7.3** | Securing Offices, Rooms, and Facilities | Protect facilities against unauthorized access and environmental threats. |
-| **A.7.4** | Protecting Against Physical and Environmental Threats | Use fire suppression, temperature, and humidity control. |
-| **A.7.5** | Working in Secure Areas | Restrict and monitor access to sensitive zones. |
-| **A.7.6** | Delivery and Loading Areas | Manage entry points to prevent unauthorized access during deliveries. |
+|------------|-------|---------|
+| **A.7.1** | Physical Security Perimeter | Define and secure areas where sensitive information or critical assets are processed or stored. Apply barriers, signage, and entry restrictions. |
+| **A.7.2** | Physical Entry Controls | Implement controlled entry mechanisms such as access badges, PINs, logs, or biometric authentication. Monitor and review access logs regularly. |
+| **A.7.3** | Securing Offices, Rooms, and Facilities | Protect offices, server rooms, and other facilities against unauthorized access, environmental hazards, and physical theft. |
+| **A.7.4** | Protecting Against Physical and Environmental Threats | Deploy fire suppression systems, temperature and humidity controls, water leak detectors, and environmental monitoring sensors. |
+| **A.7.5** | Working in Secure Areas | Limit access to authorized personnel only; enforce escort policies, monitoring, and visitor controls. |
+| **A.7.6** | Delivery and Loading Areas | Control entry points for deliveries, loading docks, and service entrances to prevent unauthorized access or smuggling of malicious devices. |
+| **A.7.7** | Clear Desk and Clear Screen | Ensure sensitive information is not left unattended on desks or screens when not in use; enforce document and device storage policies. |
+| **A.7.8** | Equipment Siting and Protection | Place IT and critical equipment in secure, environmentally controlled areas; protect against damage, theft, and interference. |
+| **A.7.9** | Security of Assets Off-Premises | Apply appropriate controls for laptops, mobile devices, and portable storage used outside secure areas (encryption, secure transport). |
+| **A.7.10** | Storage Media | Protect media containing sensitive information from unauthorized access, theft, or damage; apply handling, labeling, and storage policies. |
+| **A.7.11** | Supporting Utilities | Ensure that utilities (power, water, HVAC) are reliable, monitored, and protected against tampering or interruption. |
+| **A.7.12** | Cabling Security | Protect communication and power cabling from interception, damage, or disruption; restrict access to cable runs. |
+| **A.7.13** | Equipment Maintenance | Perform regular maintenance on IT and operational equipment according to documented procedures; restrict access during maintenance. |
+| **A.7.14** | Secure Disposal or Re-Use of Equipment | Ensure secure disposal, wiping, or destruction of media and equipment to prevent leakage of sensitive information. |
+
 
 ---
 
