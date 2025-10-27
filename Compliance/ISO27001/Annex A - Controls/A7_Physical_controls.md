@@ -26,6 +26,8 @@ These controls aim to prevent unauthorized physical access, damage, or interfere
 | **A.7.13** | Equipment Maintenance | Perform regular maintenance on IT and operational equipment according to documented procedures; restrict access during maintenance. |
 | **A.7.14** | Secure Disposal or Re-Use of Equipment | Ensure secure disposal, wiping, or destruction of media and equipment to prevent leakage of sensitive information. |
 
+*Reference:*
+- [Advisera: ISO 27001 Annex A.7 Physical controls](https://advisera.com/iso27001/physical-controls/)
 
 ---
 

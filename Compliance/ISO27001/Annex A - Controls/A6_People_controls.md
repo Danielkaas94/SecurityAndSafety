@@ -20,6 +20,8 @@ The goal is to minimize human risk factors that could lead to security incidents
 | **A.6.7** | Remote Working | Define and enforce security controls for remote and hybrid working environments, including device and data handling expectations. |
 | **A.6.8** | Information Security Event Reporting | Encourage personnel to promptly report security incidents or suspicious activities through defined channels. |
 
+*Reference:*
+- [Advisera: ISO 27001 Annex A.6 People controls](https://advisera.com/iso27001/people-controls/)
 
 ---
 

@@ -50,6 +50,8 @@ These controls ensure that information security is properly managed, documented,
 | **Control 5.36** | Compliance with policies, rules and standards for information security | Monitor and enforce compliance with internal policies and external standards; use audits, reviews and disciplinary measures as needed. |
 | **Control 5.37** | Documented operating procedures | Maintain documented, approved procedures for routine operations, change, backup, incident handling and supplier interactions. |
 
+*Reference:*
+- [Advisera: ISO 27001 Annex A.5 Organizational controls](https://advisera.com/iso27001/organizational-controls/)
 
 ---
 

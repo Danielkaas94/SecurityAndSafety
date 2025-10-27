@@ -47,7 +47,7 @@ These controls complement organizational, people, and physical measures.
 | **A.8.34** | Protection of information systems during audit testing      | Safeguard systems and data during internal or external audit activities.                             |
 
 *Reference:*
-- [Advisera: ISO 27001 Annex A Controls](https://advisera.com/iso27001/technological-controls/)
+- [Advisera: ISO 27001 Annex A.8 Technological controls](https://advisera.com/iso27001/technological-controls/)
 
 ---
 
