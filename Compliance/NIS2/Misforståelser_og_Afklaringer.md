@@ -69,15 +69,10 @@ Derfor er **progression og dokumentation** vigtigere end perfektion.
 | Realistisk tidsplan                 | 12–24 måneder                           | 12–18 måneder                  |
 
 ---
-
-Hvis du vil, kan jeg hjælpe dig formulere **en kort NIS2 compliance roadmap**, der viser en “seriøs og dokumenteret indsats” — sådan noget, som faktisk kan beskytte virksomheden mod sanktioner.
-Vil du have et eksempel på, hvordan sådan et roadmap ser ud i praksis (typisk 4 faser)?
-
-
 ---
 ---
 
-*Er der andre misforståelser der kunne være værd at få afklaret?
+### *Er der andre misforståelser der kunne være værd at få afklaret?*
 
 
 Der *er mange* udbredte misforståelser om NIS2 og ISO 27001, især blandt små og mellemstore virksomheder (SMV’er), der lige nu prøver at finde hoved og hale i det.
