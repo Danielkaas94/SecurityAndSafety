@@ -8,6 +8,7 @@
 ## [NIS2 - Network and Information Security 2](https://github.com/Danielkaas94/SecurityAndSafety/tree/main/Compliance/NIS2)
 
 
+### [🆒⚠️🚮 GTFOBins - Bypass local security restrictions in misconfigured systems 🚮⚠️🆒](https://gtfobins.github.io/)
 ### [🟩🟢💚 textfiles.com 💚🟢🟩](http://www.textfiles.com/)
 ### [🟦🔵💙 TOTSE - Temple of the Screaming Electron 💙🔵🟦](https://newtotse.com/oldtotse/en/_faq/totse_faq.html)
 ### [How Denmark’s Welfare State Became a Surveillance Nightmare 📸📽️👹](https://www.wired.com/story/algorithms-welfare-state-politics/?bxid=632df0b6aff41e483d0f8f6e&cndid=70938262&esrc=MARTECH_ORDERFORM&mbid=mbid%3DCRMWIR012019%0A%0A&source=EDT_WIR_NEWSLETTER_0_DAILY_ZZ&utm_mailing=WIR_Daily_030723_Special_Suspicion_Machine)
