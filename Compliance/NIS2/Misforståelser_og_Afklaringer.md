@@ -1,5 +1,7 @@
 # Misforståelser og Afklaringer - Svar fra ChatGPT
 
+### [English version of this document](./Misconceptions_and_Clarifications.md)
+
 *Alright, der er noget jeg skal have afklaret... NIS2, ISO27001 Man kan vel ikke få bøder og straf, hvis man er på vej til at opfylde kravene? 
 Så længe der er en positiv udviklingen i sikkerheden? Eller har virksomhederne super travlt med at få dem overholdt? Der er jo grænser hvor mange kontroller man kan få implementeret på et år*
 
