@@ -30,7 +30,7 @@ Operating System: Linux
 ---
 
 
-## The Planets: Earth 🌎🌍🌏✅🥇✅🌎🌍🌏
+## The Planets: Earth 🌎🌍🌏 ✅🥇✅ 🌎🌍🌏
 
 ### [THE PLANETS: EARTH ~ VulnHub](https://www.vulnhub.com/entry/the-planets-earth,755/)
 
@@ -76,7 +76,7 @@ Operating System: Linux
 ---
 
 
-## The Planets: Mercury ☿ ☿ ☿ ✅🥇✅ ☿ ☿ ☿
+## The Planets: Venus ♀️♀️♀️ ✅🥇✅ ♀️♀️♀️
 
 ### [THE PLANETS: VENUS ~ VulnHub](https://www.vulnhub.com/entry/the-planets-venus,705/)
 
