@@ -1,7 +1,7 @@
 
 [TryHackMe - Crack The Hash](https://tryhackme.com/room/crackthehash)
 
-*How can I just look at at hash and know if it's sha MD4/MD5, etc.?*
+# *How can I just look at at hash and know if it's sha MD4/MD5, etc.?*
 
 48bb6e862e54f2a795ffc4e541caed4d 
 
@@ -135,7 +135,7 @@ Let’s break down your examples one by one 👇
 ---
 ---
 
-*The best tool is to use hashcat? what if I already know that the password has to be 4 in length and I use the wordlist from rock you.txt?*
+## *The best tool is to use hashcat? what if I already know that the password has to be 4 in length and I use the wordlist from rock you.txt?*
 
 Short answer: **Yes — hashcat is an excellent tool** for this.
 But if you *already know the password length is exactly 4*, don’t feed hashcat a huge wordlist like `rockyou.txt` as-is — use a **mask attack** (fast, tiny keyspace) or pre-filter `rockyou` to only 4-char entries. Below I give practical, copy-paste commands plus tips for common hash types.
