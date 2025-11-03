@@ -315,6 +315,12 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ### [Why people rage quit LINUX...](https://www.youtube.com/watch?v=szmssONps_g)
 
+---
+
+[![The Planets: Earth || VulnHub Complete Walkthrough](https://img.youtube.com/vi/yb3bzD81Hfk/hqdefault.jpg)](https://youtu.be/yb3bzD81Hfk)
+
+## [Linux: The Hot, Thin, Obedient Housewife that Just Works & Doesn't Nag](https://www.youtube.com/watch?v=yb3bzD81Hfk)
+
 
 ### “You have all the drawbacks of being part of a megacorp, but you also still have all the drawbacks of being run by a semi-organized community”
 
