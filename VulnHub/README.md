@@ -119,6 +119,31 @@ Operating System: Linux
 
 </div>
 
+
+---
+---
+
+
+## Lampião 🧔🏻‍♂️🎩🔫🌵🐎☀️🔥⚔️📜
+
+### [Lampião: 1 ~ VulnHub](https://www.vulnhub.com/entry/lampiao-1,249/)
+
+Would you like to keep hacking in your own lab?
+Try this brand new vulnerable machine! "Lampião 1".
+Get root!
+
+Level: Easy
+
+Operating System: Linux
+
+
+<div align="center">
+
+[![Lampiao: 1 || VulnHub Walkthrough](https://img.youtube.com/vi/fszVXkU8_kw/maxresdefault.jpg)](https://www.youtube.com/watch?v=fszVXkU8_kw)
+
+</div>
+
+
 ---
 ---
 ---
