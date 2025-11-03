@@ -207,6 +207,64 @@ Operating System: Linux
 
 ---
 ---
+
+
+## LazySysAdmin 😴💤🥱💻
+
+### [LazySysAdmin: 1 ~ VulnHub](https://www.vulnhub.com/entry/lazysysadmin-1,205/)
+
+
+Name: LazySysAdmin 1.0
+
+Author: Togie Mcdogie
+Twitter: @TogieMcdogie
+
+[Description]
+
+Difficulty: Beginner - Intermediate
+
+Boot2root created out of frustration from failing my first OSCP exam attempt.
+
+Aimed at:
+- Teaching newcomers the basics of Linux enumeration
+- Myself, I suck with Linux and wanted to learn more about each service whilst creating a playground for others to learn
+
+Special thanks to @RobertWinkel @dooktwit for hosting LazySysAdmin at Sectalks Brisbane BNE0x18
+
+[Lore]
+
+LazySysadmin - The story of a lonely and lazy sysadmin who cries himself to sleep
+
+[Tested with]
+
+Virtualbox
+Vnware Workstation player
+[Preffered setup]
+
+Host only networking
+
+[Hints]
+
+Enumeration is key
+Try Harder
+Look in front of you
+Tweet @togiemcdogie if you need more hints
+[Other]
+
+What could you of done to speed up the enumeration process?
+Are there any obvious things that you missed, which you shouldnt of missed?
+Did you learn anything interesting?
+What have you added to your enumeration process to prevent you from wasting time?
+
+
+<div align="center">
+
+[![Toppo: 1 || VulnHub Walkthrough](https://img.youtube.com/vi/5UVn7BgauC4/maxresdefault.jpg)](https://www.youtube.com/watch?v=5UVn7BgauC4)
+
+</div>
+
+---
+---
 ---
 
 
