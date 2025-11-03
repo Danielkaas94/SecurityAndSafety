@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=OisRkF9Kr5E
 
 # Corpvision 👨‍💼💼
 
+### ***Disclaimer: I did not manage to get the root flag of this CTF*** ❌🚩❌
+
 - **Name**: Corpvision: 1
 - **Date release**: 2 May 2021
 - **Author**: [Gaurav Raj](https://www.vulnhub.com/author/gaurav-raj,795/)
