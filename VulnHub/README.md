@@ -263,6 +263,29 @@ What have you added to your enumeration process to prevent you from wasting time
 
 </div>
 
+
+---
+---
+
+
+## Pylington 🐍🖥️
+
+### [Pylington: 1 ~ VulnHub](https://www.vulnhub.com/entry/pylington-1,684/)
+
+The goal of this machine is to get root privileges.
+
+Tested with VirtualBox
+
+Operating System: Linux
+
+
+<div align="center">
+
+[![Pylington: 1 || VulnHub Walkthrough](https://img.youtube.com/vi/6BSN6CxFevs/maxresdefault.jpg)](https://www.youtube.com/watch?v=6BSN6CxFevs)
+
+</div>
+
+
 ---
 ---
 ---
