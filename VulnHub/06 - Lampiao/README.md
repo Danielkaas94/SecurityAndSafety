@@ -2,6 +2,8 @@
 
 # Lampião 🧔🏻‍♂️🎩🔫🌵🐎☀️🔥⚔️📜
 
+### [Lampião: 1 ~ VulnHub](https://www.vulnhub.com/entry/lampiao-1,249/)
+
 - **Name**: Lampião: 1
 - **Date release**: 28 Jul 2018
 - **Author**: [Tiago Tavares](https://www.vulnhub.com/author/tiago-tavares,581/)
