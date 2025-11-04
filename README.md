@@ -301,6 +301,46 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 # LINUX SUCKS BALLS! 🤤🥚🥚🍆
 
+---
+
+### ❤️‍🔥 The Truth
+
+Working with Linux is one of the most confusing, infuriating, and yet strangely rewarding relationships a person can have with a machine.  
+It’s like falling in love with someone who constantly gaslights you — but then teaches you something profound right after the fight.  
+
+At first, you’ll spend hours staring at a terminal window, wondering why something so simple  
+— like copy-paste, Wi-Fi drivers, or your mousepad — suddenly stops working for no reason.  
+You’ll reinstall, reconfigure, recompile, and rethink your life choices.  
+You’ll open 47 tabs with “fix xyz not working on Linux” and end up learning what a kernel module even *is*  
+when all you wanted to do was change your wallpaper.  
+
+You’ll scream. You’ll swear vengeance. You’ll swear off Linux forever.  
+Then... you’ll boot it again the next morning. Because you can’t stay away.  
+
+There’s a strange beauty in how much Linux *forces* you to learn.  
+Every frustration becomes a lesson, every crash a clue, every dependency error  
+a reminder that you’re building something yourself — not just consuming it.  
+It’s messy, raw, and often completely irrational.  
+But so is love.  
+
+Eventually, you stop raging and start laughing when things break.  
+Because you know you *will* fix it. You always do.  
+And in those rare, magical moments when everything works perfectly —  
+when your system is running faster, cleaner, and more tailored than anything corporate software could ever dream of —  
+you realize why people stay.  
+
+Linux doesn’t care if you’re ready.  
+It doesn’t try to please you.  
+It throws you into the deep end, watches you sink,  
+then quietly teaches you how to swim. 🐧💻  
+
+So yeah — **Linux sucks balls**.  
+But it also builds warriors, thinkers, and problem-solvers out of ordinary users.  
+And once you get hooked, you’ll never see computers the same way again.
+
+“figure it out, warrior.” 🗡️🐧
+
+
 ## [Linux is Dumb - Here is why.](https://dev.to/kailyons/linux-is-dumb-here-is-why-4k2o)
 
 ## [r/unpopularopinion - Linux sucks](https://www.reddit.com/r/unpopularopinion/comments/8h8dns/linux_sucks/)
@@ -326,7 +366,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ### 💀 "Desktop Linux is dying a slow death" - "What is dead may never die" 💀
 
-<img width="180" alt="image" src="https://github.com/Danielkaas94/SecurityAndSafety/assets/17402015/7dc6f354-02ef-4e4b-be81-5e4f53678b26">
+<img width="180" alt="Fuck Linux - Incel OS" src="https://github.com/Danielkaas94/SecurityAndSafety/assets/17402015/7dc6f354-02ef-4e4b-be81-5e4f53678b26">
 
 
 </div>
