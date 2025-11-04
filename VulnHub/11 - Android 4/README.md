@@ -6,6 +6,24 @@
 
 ### [YouTube - Android 4: 1 || VulnHub Complete Walkthrough](https://www.youtube.com/watch?v=Bze_Xprx9EE)
 
+---
+
+#### A little vlog I made when I was halfway done with this challenge and had to take a walk after a bunch of technical problems with Kali Linux
+[![The Struggle of Linux - VulnHub Challenge went into a side quest](https://img.youtube.com/vi/pNkORoCDhsM/hqdefault.jpg)](https://youtu.be/pNkORoCDhsM)
+
+> ### The Struggle of Linux - VulnHub Challenge went into a side quest
+> My plan for the weekend was simple: complete my 11th vulnerable machine from VulnHub.
+> I even had a tutorial that said 7 minutes, so it should’ve been a breeze...
+> 
+> Instead, it turned into a full-on side quest of technical chaos.
+> 
+> First, I ran out of disk space on my virtual drive, so I had to expand it without reinstalling Kali Linux from scratch.
+> Then, sudo apt update/upgrade failed because my GPG key was no longer valid.
+> 
+> After updating VirtualBox from version 7.1.8 to 7.2.4, I suddenly had kernel issues and couldn’t boot up any of my machines.
+> When I finally got that fixed, I lost the ability to copy-paste between them — a vital feature when taking notes or writing CTF write-ups.
+> 
+> Now everything works again, and I can finally focus on the actual challenge 😂🥲
 
 ---
 
