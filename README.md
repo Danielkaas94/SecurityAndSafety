@@ -301,7 +301,7 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 # LINUX SUCKS BALLS! 🤤🥚🥚🍆
 
-### ❤️‍🔥 The Truth
+### 💔❤️‍🩹❤️‍🔥 The Truth ❤️‍🔥❤️‍🩹💔
 
 Working with Linux is one of the most confusing, infuriating, and yet strangely rewarding relationships a person can have with a machine.  
 It’s like falling in love with someone who constantly gaslights you — but then teaches you something profound right after the fight.  
