@@ -35,6 +35,8 @@ Analyzing '48bb6e862e54f2a795ffc4e541caed4d'
 
 #### [HashCat - Example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
+### [Hashcat Hash Modes - GitHub](https://github.com/unstable-deadlock/brashendeavours.gitbook.io/blob/master/pentesting-cheatsheets/hashcat-hash-modes.md)
+
 
 ```bash
 # You can also you this, if you already know the hash name
@@ -64,7 +66,11 @@ You can also use hashid
 ```
 
 ---
+# Level 1
 
+Can you complete the level 1 tasks by cracking the hashes?
+
+---
 ### Alright lets get going with the first one, which should be a MD5 hash
 
 ### 🔹 1️⃣ `48bb6e862e54f2a795ffc4e541caed4d`
@@ -705,43 +711,458 @@ Stopped: Thu Nov  6 17:23:27 2025
 
 
 ---
+# Level 2
+
+This task increases the difficulty. All of the answers will be in the classic [rock you](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) password list.
+You might have to start using hashcat here and not online tools. It might also be handy to look at some example hashes on [hashcats page](https://hashcat.net/wiki/doku.php?id=example_hashes).
+
+---
+
 
 ### 🔹 6️⃣ `F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85`
 
 * **Length:** 64 hex characters
   ✅ **Likely:** **SHA-256**
 
-**Command**: `hashcat -m rockyou.txt`
-**Password**: `123`
+**Command**: `hashcat -m 1400 hash6.txt rockyou.txt`
+**Password**: `paule`
+
+
+```bash
+# Get The Hash ID
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashid F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85            
+Analyzing 'F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85'
+[+] Snefru-256 
+[+] SHA-256 
+[+] RIPEMD-256 
+[+] Haval-256 
+[+] GOST R 34.11-94 
+[+] GOST CryptoPro S-Box 
+[+] SHA3-256 
+[+] Skein-256 
+[+] Skein-512(256)
+
+# Get the code for SHA-256
+# Keep in mind with grep, that you get different results searching sha or SHA, it's case sensitive 
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -hh | grep SHA2 
+   1300 | SHA2-224                                                   | Raw Hash
+   1400 | SHA2-256                                                   | Raw Hash
+  10800 | SHA2-384                                                   | Raw Hash
+   1700 | SHA2-512                                                   | Raw Hash
+   1450 | HMAC-SHA256 (key = $pass)                                  | Raw Hash authenticated
+   1460 | HMAC-SHA256 (key = $salt)                                  | Raw Hash authenticated
+
+# 
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -m 1400 hash6.txt rockyou.txt 
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-13th Gen Intel(R) Core(TM) i7-13700HX, 2317/4634 MB (1024 MB allocatable), 8MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 514 MB (4610 MB free)
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+
+f09edcb1fcefc6dfb23dc3505a882655ff77375ed8aa2d1c13f640fccc2d0c85:paule
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 1400 (SHA2-256)
+Hash.Target......: f09edcb1fcefc6dfb23dc3505a882655ff77375ed8aa2d1c13f...2d0c85
+Time.Started.....: Thu Nov  6 20:27:54 2025 (0 secs)
+Time.Estimated...: Thu Nov  6 20:27:54 2025 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:  2870.0 kH/s (0.35ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 81920/14344385 (0.57%)
+Rejected.........: 0/81920 (0.00%)
+Restore.Point....: 73728/14344385 (0.51%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#01...: compu -> janson
+Hardware.Mon.#01.: Util:  4%
+
+Started: Thu Nov  6 20:27:53 2025
+Stopped: Thu Nov  6 20:27:56 2025
+```
 
 ---
 
 ### 🔹 7️⃣ `1DFECA0C002AE40B8619ECF94819CC1B`
 
+Hint: NTLM
+
 * **Length:** 32 hex characters (but *uppercase*)
   ✅ **Possibly:** **MD4** or **NTLM hash**
-
   * NTLM hashes are *uppercase* MD4 of the UTF-16 password.
 
-**Command**: `hashcat -m rockyou.txt`
-**Password**: `123`
+**Command**: `hashcat -m 1000 hash7.txt rockyou.txt`
+**Password**: `n63umy8lkf4i`
+
+```bash
+# Make new file with the hash
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ echo '1DFECA0C002AE40B8619ECF94819CC1B' > hash7.txt                                
+                                                                                                                              
+: ' Candidate for the hash ID
+The ordering is not a proof of probability. 
+The list is a set of possible matches; placement can reflect match rules or internal ordering, not a confidence ranking you should trust as definitive.
+'
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashid 1DFECA0C002AE40B8619ECF94819CC1B                                
+Analyzing '1DFECA0C002AE40B8619ECF94819CC1B'
+[+] MD2 
+[+] MD5 
+[+] MD4 
+[+] Double MD5 
+[+] LM 
+[+] RIPEMD-128 
+[+] Haval-128 
+[+] Tiger-128 
+[+] Skein-256(128) 
+[+] Skein-512(128) 
+[+] Lotus Notes/Domino 5 
+[+] Skype 
+[+] Snefru-128 
+[+] NTLM 
+[+] Domain Cached Credentials 
+[+] Domain Cached Credentials 2 
+[+] DNSSEC(NSEC3) 
+[+] RAdmin v2.x
+
+# 
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -hh | grep NTLM             
+   5500 | NetNTLMv1 / NetNTLMv1+ESS                                  | Network Protocol
+  27000 | NetNTLMv1 / NetNTLMv1+ESS (NT)                             | Network Protocol
+   5600 | NetNTLMv2                                                  | Network Protocol
+  27100 | NetNTLMv2 (NT)                                             | Network Protocol
+   1000 | NTLM                                                       | Operating System
+
+# 
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -m 1000 hash7.txt rockyou.txt
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-13th Gen Intel(R) Core(TM) i7-13700HX, 2317/4634 MB (1024 MB allocatable), 8MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 514 MB (4328 MB free)
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+
+1dfeca0c002ae40b8619ecf94819cc1b:n63umy8lkf4i             
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 1000 (NTLM)
+Hash.Target......: 1dfeca0c002ae40b8619ecf94819cc1b
+Time.Started.....: Thu Nov  6 21:10:25 2025 (2 secs)
+Time.Estimated...: Thu Nov  6 21:10:27 2025 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:  3583.4 kH/s (0.23ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 5242880/14344385 (36.55%)
+Rejected.........: 0/5242880 (0.00%)
+Restore.Point....: 5234688/14344385 (36.49%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#01...: nabete -> n1ckow3n
+Hardware.Mon.#01.: Util: 16%
+
+Started: Thu Nov  6 21:10:16 2025
+Stopped: Thu Nov  6 21:10:28 2025
+
+```
 
 ---
 
-### 🔹 8️⃣ `$6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/...`
+### 🔹 8️⃣ 
+`$6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.`
 
 * **Prefix:** `$6$`
   ✅ **Likely:** **SHA-512 crypt** (used in `/etc/shadow` on Linux)
 
+**Command**: `hashcat -m 1800 hash8.txt rockyou.txt -w 4`
+**Password**: `waka99`
+
+```bash
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ echo '$6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.' > hash8.txt
+
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -hh | grep sha512
+   1770 | sha512(utf16le($pass))                                     | Raw Hash
+   1710 | sha512($pass.$salt)                                        | Raw Hash salted and/or iterated
+   1720 | sha512($salt.$pass)                                        | Raw Hash salted and/or iterated
+   1740 | sha512($salt.utf16le($pass))                               | Raw Hash salted and/or iterated
+  32410 | sha512(sha512($pass).$salt)                                | Raw Hash salted and/or iterated
+  32420 | sha512(sha512_bin($pass).$salt)                            | Raw Hash salted and/or iterated
+   1730 | sha512(utf16le($pass).$salt)                               | Raw Hash salted and/or iterated
+  28400 | bcrypt(sha512($pass))                                      | Generic KDF
+   6500 | AIX {ssha512}                                              | Operating System
+   1800 | sha512crypt $6$, SHA512 (Unix)                             | Operating System
+  21600 | Web2py pbkdf2-sha512                                       | Framework
+  20200 | Python passlib pbkdf2-sha512                               | Framework
+  21000 | BitShares v0.x - sha512(sha512_bin(pass))                  | Cryptocurrency Wallet
+  
+#
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -m 1800 hash8.txt rockyou.txt -w 4
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-13th Gen Intel(R) Core(TM) i7-13700HX, 2317/4634 MB (1024 MB allocatable), 8MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+Minimum salt length supported by kernel: 0
+Maximum salt length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+* Uses-64-Bit
+* Register-Limit
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 514 MB (4474 MB free)
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+
+Cracking performance lower than expected?                 
+
+* Append -O to the commandline.
+  This lowers the maximum supported password/salt length (usually down to 32).
+
+* Append -S to the commandline.
+  This has a drastic speed impact but can be better for specific attacks.
+  Typical scenarios are a small wordlist but a large ruleset.
+
+* Update your backend API runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [f]inish [q]uit => s
+
+Session..........: hashcat
+Status...........: Running
+Hash.Mode........: 1800 (sha512crypt $6$, SHA512 (Unix))
+Hash.Target......: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPM...ZAs02.
+Time.Started.....: Thu Nov  6 21:42:12 2025 (1 min, 20 secs)
+Time.Estimated...: Thu Nov  6 22:36:27 2025 (52 mins, 55 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:     4406 H/s (405.80ms) @ Accel:1024 Loops:1000 Thr:1 Vec:4
+Recovered........: 0/1 (0.00%) Digests (total), 0/1 (0.00%) Digests (new)
+Progress.........: 352256/14344385 (2.46%)
+Rejected.........: 0/352256 (0.00%)
+Restore.Point....: 352256/14344385 (2.46%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:3000-4000
+Candidate.Engine.: Device Generator
+Candidates.#01...: iloveconan -> clay14
+Hardware.Mon.#01.: Util: 53%
+ 
+  
+$6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.:waka99
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 1800 (sha512crypt $6$, SHA512 (Unix))
+Hash.Target......: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPM...ZAs02.
+Time.Started.....: Thu Nov  6 21:42:12 2025 (9 mins, 33 secs)
+Time.Estimated...: Thu Nov  6 21:51:45 2025 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:     4941 H/s (334.03ms) @ Accel:1024 Loops:1000 Thr:1 Vec:4
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 2834432/14344385 (19.76%)
+Rejected.........: 0/2834432 (0.00%)
+Restore.Point....: 2826240/14344385 (19.70%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:4000-5000
+Candidate.Engine.: Device Generator
+Candidates.#01...: walo769 -> wagner1973
+Hardware.Mon.#01.: Util: 40%
+
+Started: Thu Nov  6 21:42:09 2025
+Stopped: Thu Nov  6 21:51:46 2025
+                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ 
+
+```
+
 ---
 
 ### 🔹 9️⃣ `e5d8870e5bdd26602cab8dbe07a942c8669e56d6`
+
+Hint: HMAC-SHA1
+
+Salt: tryhackme
 
 * **Length:** 40 hex chars
   ✅ **Likely:** **SHA-1**
 
 **Command**: `hashcat -m rockyou.txt`
 **Password**: `123`
+
+
+```bash
+: '
+In HMAC, the password acts as the _key_, and the data (here: salt) is the message.
+
+HMAC-SHA1 where the password is used as the HMAC key.
+
+'
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ echo 'e5d8870e5bdd26602cab8dbe07a942c8669e56d6:tryhackme' > hash9.txt                                                                 
+                                                                                                                                            
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashid e5d8870e5bdd26602cab8dbe07a942c8669e56d6                                                                 
+Analyzing 'e5d8870e5bdd26602cab8dbe07a942c8669e56d6'
+[+] SHA-1 
+[+] Double SHA-1 
+[+] RIPEMD-160 
+[+] Haval-160 
+[+] Tiger-160 
+[+] HAS-160 
+[+] LinkedIn 
+[+] Skein-256(160) 
+[+] Skein-512(160) 
+
+
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -hh | grep HMAC                        
+  33300 | HMAC-BLAKE2S (key = $pass)                                 | Raw Hash authenticated
+     50 | HMAC-MD5 (key = $pass)                                     | Raw Hash authenticated
+     60 | HMAC-MD5 (key = $salt)                                     | Raw Hash authenticated
+   6050 | HMAC-RIPEMD160 (key = $pass)                               | Raw Hash authenticated
+   6060 | HMAC-RIPEMD160 (key = $salt)                               | Raw Hash authenticated
+  33650 | HMAC-RIPEMD320 (key = $pass)                               | Raw Hash authenticated
+  33660 | HMAC-RIPEMD320 (key = $salt)                               | Raw Hash authenticated
+    150 | HMAC-SHA1 (key = $pass)                                    | Raw Hash authenticated
+    160 | HMAC-SHA1 (key = $salt)                                    | Raw Hash authenticated
+
+```
+
+![](hashid.png)
+
+![](hash9.png)
+
+![](m160w4.png)
+
+![](cracked.png)
+
+![](Crack the Hash.png)
+
+![](TheRealHashCat.png)
+
+---
+---
+
+# What is HMAC-SHA1?
+
+**HMAC-SHA1** = **HMAC** (Hash-based Message Authentication Code) that uses **SHA-1** as the underlying hash function.  
+It produces a **message authentication code** (MAC): a short fixed-size tag that authenticates both the integrity and authenticity of a message when two parties share a secret key.
+
+- Output length: **160 bits** (20 bytes) — the SHA-1 digest size.
+- Block size for SHA-1: **64 bytes** (512 bits).
+- Standardized by RFC 2104 (HMAC) and commonly used in older protocols and systems (HOTP/TOTP uses HMAC-SHA1).
+# Why HMAC is designed that way (intuition)
+
+- The inner hash mixes the key with the message; the outer hash prevents certain attacks and strengthens the construction.
+- Even if the underlying hash has some weaknesses (e.g., collision attacks), HMAC resists many of those weaknesses because the attacker does not control the keyed inputs in the same way as plain hashing.
+- Security of HMAC reduces to the cryptographic properties of the underlying hash as a PRF; collision attacks on SHA-1 do **not** trivially break HMAC-SHA1, but they weaken the margin of safety.
+# Security status / practical guidance
+
+- **HMAC-SHA1 is still widely used** (legacy systems, HOTP/TOTP), and for MAC purposes it remains **more resistant** to SHA-1 collision attacks than plain SHA-1 hashing.
+- **However**, modern guidance is to prefer stronger hashes: **HMAC-SHA256** or **HMAC-SHA512** for new designs. SHA-1 has known collision attacks; while collisions don’t directly break HMAC in a simple way, it reduces confidence for long-term security.
+- Use **sufficient key length** (at least as long as the hash output; e.g., ≥160 bits for HMAC-SHA1), and choose the key uniformly at random.
+- Always use **constant-time** comparison when verifying MACs to avoid timing attacks.
+- If you must interoperate with legacy systems that require HMAC-SHA1 (e.g., some OTP standards), HMAC-SHA1 is acceptable; for new systems prefer SHA-2/3.
 
 ---
 
@@ -776,8 +1197,9 @@ Stopped: Thu Nov  6 17:23:27 2025
 
 ---
 ---
+---
 
-# Question 1 - ChatGPT
+## Question 1 - ChatGPT
 
 ```
 What does the flag -a? 
@@ -880,13 +1302,11 @@ hashcat -m 0 -a 3 hash.txt ?a?a?a?a
 If you want, tell me the hash type (or paste one of your hashes) and I’ll give the exact `-m` number and a recommended mask / custom-charset tuned for your situation.
 
 
-
-
 ---
 ---
 ---
 
-# Question 2 - ChatGPT
+## Question 2 - ChatGPT
 
 
 ```
@@ -1060,7 +1480,7 @@ If you want, tell me how you usually launch long runs (do you use `--session`?),
 ---
 ---
 
-# Question 4 - ChatGPT
+## Question 4 - ChatGPT
 
 ### *Tell me, when should I use hashcat or john the ripper? Is john the ripper always faster?*
 
