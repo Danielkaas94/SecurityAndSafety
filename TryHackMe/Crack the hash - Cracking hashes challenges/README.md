@@ -4,6 +4,33 @@
 ## [crack station - Free Password Hash Cracker](https://crackstation.net/)
 *CrackStation uses massive pre-computed lookup tables to crack password hashes. These tables store a mapping between the hash of a password, and the correct password for that hash. The hash values are indexed so that it is possible to quickly search the database for a given hash. If the hash is present in the database, the password can be recovered in a fraction of a second. This only works for "unsalted" hashes.*
 
+Alternative to Crack Station is [Hashes.com - ](https://hashes.com/en/decrypt/hash) Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes
+
+on linux you can use `hashid`
+```bash
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashid 48bb6e862e54f2a795ffc4e541caed4d        
+Analyzing '48bb6e862e54f2a795ffc4e541caed4d'
+[+] MD2 
+[+] MD5 
+[+] MD4 
+[+] Double MD5 
+[+] LM 
+[+] RIPEMD-128 
+[+] Haval-128 
+[+] Tiger-128 
+[+] Skein-256(128) 
+[+] Skein-512(128) 
+[+] Lotus Notes/Domino 5 
+[+] Skype 
+[+] Snefru-128 
+[+] NTLM 
+[+] Domain Cached Credentials 
+[+] Domain Cached Credentials 2 
+[+] DNSSEC(NSEC3) 
+[+] RAdmin v2.x
+```
+
 # [TryHackMe - Crack the hash](https://tryhackme.com/room/crackthehash)
 
 #### [HashCat - Example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
@@ -30,6 +57,11 @@ hashcat --help | grep MD5
   17600 | SHA3-512                                                   | Raw Has
 ```
 
+You can also use hashid
+
+```bash
+
+```
 
 ---
 
@@ -299,7 +331,7 @@ awk 'length($0)==4' /usr/share/wordlists/rockyou.txt > rockyou-4.txt
 This is going to take a walk, I will take a walk and maybe clean the kitchen 😅😴
 
 
-![hashcat](crack_slow_give_up.png)
+![](crack_slow_give_up.png)
 
 
 ```
@@ -444,6 +476,7 @@ Session completed
 
 What did we learn little n00b (talking to myself)?
 - Using mask is super slow compared to wordlist `?l?l?l?l vs. rockyou-4.txt`
+- If something takes close to an hour on a simple password, YOU might have done something totally wrong with the syntax
 - John The Ripper is usually faster? Depending on the hash type?
 
 
@@ -457,10 +490,217 @@ What did we learn little n00b (talking to myself)?
   (could also be MD4 or NTLM, but NTLM usually **uppercase** hex)
 
 
-**Command**: `hashcat -m rockyou.txt`
+~~**Command**: `hashcat -m 900 279412f945939ba78ce0758d3fd83daa`~~
+~~**Command**: `hashcat -m 900 rockyou.txt`~~
+**Command (After I know the password)**: `hashcat -m 900 -a 6 hash5.txt rockyou.txt ?d?d -w 3 --show`
 **Password**: `Eternity22`
 
 Since there is no salt involved we can also just use the website [crack station - Free Password Hash Cracker](https://crackstation.net/), it takes less than a second to crack
+
+
+I tried with hashcat with this command (`hashcat -m 900 rockyou.txt`), but they do not work, the tool get `exhausted` and so am I, am I missing something? The password is not inside ``rockyou.txt``? has ``rockyou.txt`` been corrupted and is no longer working as before?
+
+```bash
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -m 900 hash5 rockyou.txt
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-13th Gen Intel(R) Core(TM) i7-13700HX, 2317/4634 MB (1024 MB allocatable), 8MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 514 MB (4714 MB free)
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+
+Approaching final keyspace - workload adjusted.           
+
+Session..........: hashcat                                
+Status...........: Exhausted
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 279412f945939ba78ce0758d3fd83daa
+Time.Started.....: Thu Nov  6 09:42:29 2025 (5 secs)
+Time.Estimated...: Thu Nov  6 09:42:34 2025 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:  3021.4 kH/s (0.23ms) @ Accel:1024 Loops:1 Thr:1 Vec:8
+Recovered........: 0/1 (0.00%) Digests (total), 0/1 (0.00%) Digests (new)
+Progress.........: 14344385/14344385 (100.00%)
+Rejected.........: 0/14344385 (0.00%)
+Restore.Point....: 14344385/14344385 (100.00%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#01...:  kristenanne -> $HEX[042a0337c2a156616d6f732103]
+Hardware.Mon.#01.: Util: 20%
+
+Started: Thu Nov  6 09:42:29 2025
+Stopped: Thu Nov  6 09:42:35 2025
+
+```
+
+Okay, this is fucking stupid... I found this tutorial [Crack the Hash: TryHackMe Walkthrough Guide](https://crackthehashblog.wordpress.com/2025/05/22/crack-the-hash-tryhackme-walkthrough-guide/)
+What is wrong?? Is the author a lying scumbag? Several other walkthroughs says it is not possible with hashcat and use crackstation instead for this assignment.
+And the actual password cannot be found inside rockyou.txt
+
+they use the commands 
+```bash
+hashcat -m 900 -a 0 hash5.txt /usr/share/wordlists/rockyou.txt
+hashcat -m 900 -a 0 --force -O hash5.txt /usr/share/wordlists/rockyou.txt
+
+# They are able to get the password 'Eternity22' 
+I just get Status: Exhausted
+
+# If I use greb the password for the answer is not inside rockyou
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ grep Eternity rockyou.txt
+Eternity
+Eternity7
+Eternity3
+Eternity1
+Eternity03
+4Eternity
+rlove4Eternity
+LoveForEternity2
+LoveEternity2
+JayydaEternity123
+Eternity_Love
+EternityBears1994
+Eternity90
+Eternity728
+Eternity46
+Eternity4
+Eternity23
+Eternity2
+Eternity16
+Eternity10
+Eternity05
+4Eternitys
+2Eternity!
+08Eternity08
+
+```
+
+### Could we somehow make a hybrid-mask? 'Eternity' is inside ``rockyou.txt``, then just add ?d?d 
+
+
+```bash
+# Proof of concept
+# -m 900 = raw MD4
+hashcat -m 900 -a 6 hash5.txt rockyou.txt ?d?d -w 3 --show
+
+# Shall we try with -w 4? Just for the lulz?
+- [ Workload Profiles (-w) ] -
+  # | Performance | Runtime | Power Consumption | Desktop Impact
+ ===+=============+=========+===================+=================
+  1 | Low         |   2 ms  | Low               | Minimal
+  2 | Default     |  12 ms  | Economic          | Noticeable
+  3 | High        |  96 ms  | High              | Unresponsive
+  4 | Nightmare   | 480 ms  | Insane            | Headless
+
+#
+- [ Attack Modes (-a)] -
+  # | Mode
+ ===+======
+  0 | Straight
+  1 | Combination
+  3 | Brute-force
+  6 | Hybrid Wordlist + Mask
+  7 | Hybrid Mask + Wordlist
+  9 | Association
+
+┌──(kali㉿kali)-[~/Desktop/Crack the hash]
+└─$ hashcat -m 900 -a 6 hash5.txt rockyou.txt ?d?d -w 4       
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 6.0+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 18.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-haswell-13th Gen Intel(R) Core(TM) i7-13700HX, 2317/4634 MB (1024 MB allocatable), 8MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory allocated for this attack: 514 MB (4075 MB free)
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344385
+* Bytes.....: 139921507
+* Keyspace..: 1434438500
+
+279412f945939ba78ce0758d3fd83daa:Eternity22               
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 900 (MD4)
+Hash.Target......: 279412f945939ba78ce0758d3fd83daa
+Time.Started.....: Thu Nov  6 17:23:25 2025 (1 sec)
+Time.Estimated...: Thu Nov  6 17:23:26 2025 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-256 bytes)
+Guess.Base.......: File (rockyou.txt), Left Side
+Guess.Mod........: Mask (?d?d) [2], Right Side
+Guess.Queue.Base.: 1/1 (100.00%)
+Guess.Queue.Mod..: 1/1 (100.00%)
+Speed.#01........: 49451.5 kH/s (4.47ms) @ Accel:1024 Loops:64 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 15269888/1434438500 (1.06%)
+Rejected.........: 0/15269888 (0.00%)
+Restore.Point....: 147456/14344385 (1.03%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-64 Iteration:0-64
+Candidate.Engine.: Device Generator
+Candidates.#01...: mckinley112 -> shelby9534
+Hardware.Mon.#01.: Util:  9%
+
+Started: Thu Nov  6 17:23:17 2025
+Stopped: Thu Nov  6 17:23:27 2025
+```
+
 
 
 
