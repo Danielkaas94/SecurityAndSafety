@@ -6,7 +6,11 @@
 
 Alternative to Crack Station is [Hashes.com - ](https://hashes.com/en/decrypt/hash) Decrypt MD5, SHA1, MySQL, NTLM, SHA256, MD5 Email, SHA256 Email, SHA512 hashes
 
-on linux you can use `hashid`
+# Now that this room is complete, here is the link for the spiritual successor to Crack the Hash: [Crack The Hash Level 2 - Advanced cracking hashes challenges and wordlist generation](https://tryhackme.com/room/crackthehashlevel2)
+
+---
+
+### On linux you can use `hashid`. An alternative tool is [Haiti - HAsh IdenTifIer](https://noraj.github.io/haiti/#/) a CLI tool to identify the hash type of a given hash.
 ```bash
 ┌──(kali㉿kali)-[~/Desktop/Crack the hash]
 └─$ hashid 48bb6e862e54f2a795ffc4e541caed4d        
@@ -58,13 +62,6 @@ hashcat --help | grep MD5
   17500 | SHA3-384                                                   | Raw Hash
   17600 | SHA3-512                                                   | Raw Has
 ```
-
-You can also use hashid
-
-```bash
-
-```
-
 ---
 # Level 1
 
