@@ -253,6 +253,8 @@ C:\Program Files\WireShark>tshark -i "wi-fi" -f "src port 53" -a duration:15 -w 
 
 ## [🔎 Censys 🔍](https://search.censys.io/)
 
+## [UUID Decoder](https://www.uuidtools.com/decode)
+
 
 <br>
 
