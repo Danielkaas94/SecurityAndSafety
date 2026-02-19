@@ -331,6 +331,21 @@ DHCP service: Enabled IP address: Automatically assign
 
 ---
 ---
+
+## Evilbox: One 😈📦
+
+### [Evilbox: One ~ VulnHub](https://www.vulnhub.com/entry/evilbox-one,736/)
+
+Difficulty: Easy
+
+This works better with VirtualBox rather than VMware
+
+<div align="center">
+
+[![Evilbox: One || VulnHub Walkthrough](https://img.youtube.com/vi/jehjt_iCMsk/maxresdefault.jpg)](https://www.youtube.com/watch?v=jehjt_iCMsk)
+
+</div>
+
 ---
 
 
