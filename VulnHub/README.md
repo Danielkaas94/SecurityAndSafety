@@ -347,6 +347,25 @@ This works better with VirtualBox rather than VMware
 </div>
 
 ---
+---
+
+## Blogger: 1
+
+### [Blogger: 1 ~ VulnHub](https://www.vulnhub.com/entry/blogger-1,675/)
+
+James M Brunner, A Web Developer has recently created a blog website. He hired you to test the Security of his Blog Website. Hack Your Way In Mr. Robot Style :)
+
+Add blogger.thm to /etc/hosts file
+
+Difficulty: Beginner, Easy
+
+This works better with VirtualBox rather than VMware. Note, you may need to remove the console log in "serial settings" for this to start up (due to vagrant)
+
+<div align="center">
+
+[![Blogger: 1 || VulnHub Walkthrough](https://img.youtube.com/vi/uTQqqYEmR2g/maxresdefault.jpg)](https://www.youtube.com/watch?v=uTQqqYEmR2g)
+
+</div>
 
 
 ## Is there a risk, if malware are inside these machines from VulnHub?
