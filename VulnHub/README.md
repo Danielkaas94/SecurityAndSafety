@@ -367,6 +367,24 @@ This works better with VirtualBox rather than VMware. Note, you may need to remo
 
 </div>
 
+---
+---
+
+## pWnOS: 1.0
+
+### [pWnOS: 1.0 ~ VulnHub](https://www.vulnhub.com/entry/pwnos-10,33/)
+
+Some of you may have noticed this new pWnOS forum section. I created pWnOS as a virtual machine and Grendel was nice enough to let me post about it here. Here's a bit of information on pWnOS.
+
+It's a linux virtual machine intentionally configured with exploitable services to provide you with a path to r00t. :) Currently, the virtual machine NIC is configured in bridged networking, so it will obtain a normal IP address on the network you are connected to. You can easily change this to NAT or Host Only if you desire. A quick ping sweep will show the IP address of the virtual machine.
+
+Sorry...no scenario/storyline with this one. I wasn't really planning to release it like this, so maybe for version 2.0 I'll be more creative. :) I'm anxious to get feedback so let me know how it goes or if you have questions. Thanks and good luck!
+
+<div align="center">
+
+[![pWnOS: 1.0 || VulnHub Walkthrough](https://img.youtube.com/vi/mu2wrrSGFGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mu2wrrSGFGA)
+
+</div>
 
 ## Is there a risk, if malware are inside these machines from VulnHub?
 
