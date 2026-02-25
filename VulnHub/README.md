@@ -372,7 +372,7 @@ This works better with VirtualBox rather than VMware. Note, you may need to remo
 
 ## pWnOS: 1.0
 
-### [pWnOS: 1.0 ~ VulnHub](https://www.vulnhub.com/entry/pwnos-10,33/)
+### [pWnOS: 1.0 ~ VulnHub](https://www.vulnhub.com/entry/pwnos-20-pre-release,34/)
 
 Some of you may have noticed this new pWnOS forum section. I created pWnOS as a virtual machine and Grendel was nice enough to let me post about it here. Here's a bit of information on pWnOS.
 
@@ -385,6 +385,25 @@ Sorry...no scenario/storyline with this one. I wasn't really planning to release
 [![pWnOS: 1.0 || VulnHub Walkthrough](https://img.youtube.com/vi/mu2wrrSGFGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mu2wrrSGFGA)
 
 </div>
+
+---
+---
+
+## pWnOS: 2.0
+
+### [pWnOS: 2.0 ~ VulnHub](https://www.vulnhub.com/entry/pwnos-10,33/)
+
+pWnOS v2.0 is a Virutal Machine Image which hosts a server to pratice penetration testing. It will test your ability to exploit the server and contains multiple entry points to reach the goal (root). It was design to be used with WMWare Workstation 7.0, but can also be used with most other virtual machine software.
+
+<div align="center">
+
+[![pWnOS: 2.0 || VulnHub Walkthrough](https://img.youtube.com/vi/bMuhFVQzdRM/maxresdefault.jpg)](https://www.youtube.com/watch?v=bMuhFVQzdRM)
+
+</div>
+
+
+---
+---
 
 ## Is there a risk, if malware are inside these machines from VulnHub?
 
