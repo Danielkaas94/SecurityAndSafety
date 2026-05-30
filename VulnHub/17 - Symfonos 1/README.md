@@ -1183,4 +1183,26 @@ $6$NSwfewfo$.XWyJnSz1jy8sgLAHPEKX3TSSCB9pQbfXru.uhfm/XuNo5nvPdTf9ajMfL.MMVjSk9tm
 - [ ] `showmount -e <IP>`  
 
 ---
+---
 
+This machine was a great exercise in following small clues and chaining multiple weaknesses together into a full compromise.
+
+Key areas I practiced during this challenge:
+
+* Network discovery with Netdiscover
+* Service enumeration using Nmap
+* SMB share enumeration
+* WordPress reconnaissance with WPScan
+* Exploiting a vulnerable WordPress plugin (Mail Masta)
+* Local File Inclusion (LFI)
+* SMTP interaction using Telnet
+* Gaining a reverse shell
+* Linux privilege escalation through SUID path hijacking
+
+One of the most valuable lessons from this machine was how important seemingly insignificant information can be.
+
+A simple text file found on an anonymous SMB share revealed weak password patterns, which led to access to another share. That eventually exposed a hidden WordPress installation, which opened the door to further exploitation.
+
+The privilege escalation phase was also particularly interesting. Instead of exploiting a kernel vulnerability, the path to root involved analyzing a custom SUID binary and abusing how it executed system commands.
+
+Challenges like this are a good reminder that penetration testing is often less about complex exploits and more about careful enumeration, observation, and connecting the dots.
