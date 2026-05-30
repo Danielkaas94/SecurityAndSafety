@@ -785,3 +785,25 @@ $6$UHbX4qEOQS9X5zyA$zxrNGjbIhgVppW.NSRSeCzpAzgsux11mBIltOVr84CJqnXmiCMVJxnWrggHB
 - [ ] Use Metasploit/Manual Exploitation  
 - [ ] Upload and use a reverse shell  
 
+---
+---
+
+This machine was a really fun mix of:
+• Enumeration
+• Web exploitation
+• Credential discovery
+• SSH foothold
+• Linux privilege escalation
+
+Key things I practiced during this challenge:
+
+Full port enumeration with Nmap
+Directory brute forcing using Gobuster
+Password attacks with Hydra
+Exploiting an outdated Codiad instance for remote code execution
+Linux privilege escalation through misconfigured sudo permissions using GTFOBins techniques
+
+One interesting lesson from this machine:
+Sometimes a service appears “broken”, but the underlying vulnerable software is still there and exploitable if you continue investigating.
+
+After a longer break from penetration testing while focusing on other projects, it felt great getting back into the mindset again.
